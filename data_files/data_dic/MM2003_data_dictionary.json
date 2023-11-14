@@ -1,0 +1,762 @@
+[
+  {
+    "#": 1,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "#": 1,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "#": 2,
+    "Variable": "age",
+    "Description": "Median age (range)",
+    "Type": "Continuous",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "#": 3,
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "18-39'"
+  },
+  {
+    "#": 3,
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "40-49"
+  },
+  {
+    "#": 3,
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "50-59"
+  },
+  {
+    "#": 3,
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "60-69"
+  },
+  {
+    "#": 3,
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "70+"
+  },
+  {
+    "#": 4,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "White"
+  },
+  {
+    "#": 4,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Black or African American"
+  },
+  {
+    "#": 4,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Other"
+  },
+  {
+    "#": 4,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 5,
+    "Variable": "kpr",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": ">= 90"
+  },
+  {
+    "#": 5,
+    "Variable": "kpr",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "< 90"
+  },
+  {
+    "#": 5,
+    "Variable": "kpr",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 6,
+    "Variable": "myestaprgp",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Never treated"
+  },
+  {
+    "#": 6,
+    "Variable": "myestaprgp",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "SCR/CR"
+  },
+  {
+    "#": 6,
+    "Variable": "myestaprgp",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "VGPR"
+  },
+  {
+    "#": 6,
+    "Variable": "myestaprgp",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "PR"
+  },
+  {
+    "#": 6,
+    "Variable": "myestaprgp",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "SD"
+  },
+  {
+    "#": 6,
+    "Variable": "myestaprgp",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "PD/Relapse"
+  },
+  {
+    "#": 6,
+    "Variable": "myestaprgp",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 7,
+    "Variable": "nlinesgp",
+    "Description": "Lines of chemotherapy",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "1"
+  },
+  {
+    "#": 7,
+    "Variable": "nlinesgp",
+    "Description": "Lines of chemotherapy",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": ">=2"
+  },
+  {
+    "#": 8,
+    "Variable": "iss",
+    "Description": "ISS stage at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "ISS stage I"
+  },
+  {
+    "#": 8,
+    "Variable": "iss",
+    "Description": "ISS stage at diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "ISS stage II"
+  },
+  {
+    "#": 8,
+    "Variable": "iss",
+    "Description": "ISS stage at diagnosis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "ISS stage III"
+  },
+  {
+    "#": 8,
+    "Variable": "iss",
+    "Description": "ISS stage at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 9,
+    "Variable": "lpamgp",
+    "Description": "Melphalan dose in conditioning regimen, mg/m^2",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "MEL 140"
+  },
+  {
+    "#": 9,
+    "Variable": "lpamgp",
+    "Description": "Melphalan dose in conditioning regimen, mg/m^2",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "MEL 200"
+  },
+  {
+    "#": 9,
+    "Variable": "lpamgp",
+    "Description": "Melphalan dose in conditioning regimen, mg/m^2",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Unknown dose"
+  },
+  {
+    "#": 10,
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "< 6 months"
+  },
+  {
+    "#": 10,
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "6 - 12 months"
+  },
+  {
+    "#": 11,
+    "Variable": "indxtx",
+    "Description": "Time from diagnosis to transplant (Continuous)",
+    "Type": "Continuous",
+    "Value": 2,
+    "Label": "6 - 12 months"
+  },
+  {
+    "#": 12,
+    "Variable": "strata",
+    "Description": "Main effect (Bort vs Len)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Bort-Based"
+  },
+  {
+    "#": 12,
+    "Variable": "strata",
+    "Description": "Main effect (Bort vs Len)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Lenalidomide alone"
+  },
+  {
+    "#": 13,
+    "Variable": "coorgscoregp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "0"
+  },
+  {
+    "#": 13,
+    "Variable": "coorgscoregp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "1"
+  },
+  {
+    "#": 13,
+    "Variable": "coorgscoregp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2"
+  },
+  {
+    "#": 13,
+    "Variable": "coorgscoregp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "3"
+  },
+  {
+    "#": 13,
+    "Variable": "coorgscoregp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "4"
+  },
+  {
+    "#": 13,
+    "Variable": "coorgscoregp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "5"
+  },
+  {
+    "#": 13,
+    "Variable": "coorgscoregp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "6+"
+  },
+  {
+    "#": 13,
+    "Variable": "coorgscoregp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 14,
+    "Variable": "GFR",
+    "Description": "eGFR at HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 15,
+    "Variable": "GFRdx",
+    "Description": "eGFR at diagnosis",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 16,
+    "Variable": "intxsurv0",
+    "Description": "Time from HCT to last follow-up, months (Censored at 25 months)",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 17,
+    "Variable": "dead25",
+    "Description": "Dead (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 17,
+    "Variable": "dead25",
+    "Description": "Dead (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 17,
+    "Variable": "dead25",
+    "Description": "Dead (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 18,
+    "Variable": "rel25",
+    "Description": "Relapse (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 18,
+    "Variable": "rel25",
+    "Description": "Relapse (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 18,
+    "Variable": "rel25",
+    "Description": "Relapse (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 19,
+    "Variable": "intxrel0",
+    "Description": "Time from HCT to relapse / death (Censored at 25 months)",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 20,
+    "Variable": "trm25",
+    "Description": "Non-relapse mortality (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 20,
+    "Variable": "trm25",
+    "Description": "Non-relapse mortality (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 20,
+    "Variable": "trm25",
+    "Description": "Non-relapse mortality (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 21,
+    "Variable": "dfs25",
+    "Description": "Disease-free survival (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 21,
+    "Variable": "dfs25",
+    "Description": "Disease-free survival (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 21,
+    "Variable": "dfs25",
+    "Description": "Disease-free survival (Censored at 25 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 22,
+    "Variable": "dccn",
+    "Description": "Dummy CCN",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 23,
+    "Variable": "dcrid",
+    "Description": "Dummy CRID",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 24,
+    "Variable": "cyto_mva",
+    "Description": "High-risk marker group",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Any HR- t(4;14)/ t(14;16)/t(14;20)/del17p)"
+  },
+  {
+    "#": 24,
+    "Variable": "cyto_mva",
+    "Description": "High-risk marker group",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Abnormality at 1q"
+  },
+  {
+    "#": 25,
+    "Variable": "cytoh",
+    "Description": "High-risk marker",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "t(4;14)"
+  },
+  {
+    "#": 25,
+    "Variable": "cytoh",
+    "Description": "High-risk marker",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "t(14;16)"
+  },
+  {
+    "#": 25,
+    "Variable": "cytoh",
+    "Description": "High-risk marker",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "t(14;20)"
+  },
+  {
+    "#": 25,
+    "Variable": "cytoh",
+    "Description": "High-risk marker",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "del17p"
+  },
+  {
+    "#": 25,
+    "Variable": "cytoh",
+    "Description": "High-risk marker",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "Abnormality at 1q"
+  },
+  {
+    "#": 25,
+    "Variable": "cytoh",
+    "Description": "High-risk marker",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": ">=2 high-risk"
+  },
+  {
+    "#": 26,
+    "Variable": "mva_group",
+    "Description": "MVA Main effect",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Group B/Len"
+  },
+  {
+    "#": 26,
+    "Variable": "mva_group",
+    "Description": "MVA Main effect",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Group A/Len"
+  },
+  {
+    "#": 26,
+    "Variable": "mva_group",
+    "Description": "MVA Main effect",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Group B/Bort"
+  },
+  {
+    "#": 26,
+    "Variable": "mva_group",
+    "Description": "MVA Main effect",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Group A/Bort"
+  },
+  {
+    "#": 27,
+    "Variable": "myebrespgp",
+    "Description": "Response at day 100 of AHCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "sCR/CR"
+  },
+  {
+    "#": 27,
+    "Variable": "myebrespgp",
+    "Description": "Response at day 100 of AHCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "VGPR"
+  },
+  {
+    "#": 27,
+    "Variable": "myebrespgp",
+    "Description": "Response at day 100 of AHCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "PR"
+  },
+  {
+    "#": 27,
+    "Variable": "myebrespgp",
+    "Description": "Response at day 100 of AHCT",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "SD"
+  },
+  {
+    "#": 27,
+    "Variable": "myebrespgp",
+    "Description": "Response at day 100 of AHCT",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "PD/Relapse"
+  },
+  {
+    "#": 27,
+    "Variable": "myebrespgp",
+    "Description": "Response at day 100 of AHCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 28,
+    "Variable": "myerpsl1gp",
+    "Description": "Best response to AHCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "sCR/CR"
+  },
+  {
+    "#": 28,
+    "Variable": "myerpsl1gp",
+    "Description": "Best response to AHCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "VGPR"
+  },
+  {
+    "#": 28,
+    "Variable": "myerpsl1gp",
+    "Description": "Best response to AHCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "PR"
+  },
+  {
+    "#": 28,
+    "Variable": "myerpsl1gp",
+    "Description": "Best response to AHCT",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "SD"
+  },
+  {
+    "#": 28,
+    "Variable": "myerpsl1gp",
+    "Description": "Best response to AHCT",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "PD/Relapse"
+  },
+  {
+    "#": 28,
+    "Variable": "myerpsl1gp",
+    "Description": "Best response to AHCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 29,
+    "Variable": "chemo",
+    "Description": "Induction Chemotherapy",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "VTD"
+  },
+  {
+    "#": 29,
+    "Variable": "chemo",
+    "Description": "Induction Chemotherapy",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "VRD"
+  },
+  {
+    "#": 29,
+    "Variable": "chemo",
+    "Description": "Induction Chemotherapy",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "VCD"
+  },
+  {
+    "#": 29,
+    "Variable": "chemo",
+    "Description": "Induction Chemotherapy",
+    "Type": "Categorical",
+    "Value": 23,
+    "Label": "KRD"
+  },
+  {
+    "#": 30,
+    "Variable": "yeartx",
+    "Description": "Year of HCT",
+    "Type": "Continuous",
+    "Value": 23,
+    "Label": "KRD"
+  },
+  {
+    "#": 31,
+    "Variable": "postrxh1_gp",
+    "Description": "Post-HCT Therapy",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Bortezomib + Lenalidomide +/- other"
+  },
+  {
+    "#": 31,
+    "Variable": "postrxh1_gp",
+    "Description": "Post-HCT Therapy",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Bortezomib + Cyclophosphomide +/- other"
+  },
+  {
+    "#": 31,
+    "Variable": "postrxh1_gp",
+    "Description": "Post-HCT Therapy",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Bortezomib +/- other"
+  },
+  {
+    "#": 31,
+    "Variable": "postrxh1_gp",
+    "Description": "Post-HCT Therapy",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Lenalidomide alone"
+  }
+]

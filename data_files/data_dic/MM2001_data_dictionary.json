@@ -1,0 +1,634 @@
+[
+  {
+    "#": "1",
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "#": "1",
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "#": "1",
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Not answered"
+  },
+  {
+    "#": "1",
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "2",
+    "Variable": "age",
+    "Description": "Median age (range)",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "3",
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "< 10"
+  },
+  {
+    "#": "3",
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "10-19"
+  },
+  {
+    "#": "3",
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "20-29"
+  },
+  {
+    "#": "3",
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "30-39"
+  },
+  {
+    "#": "3",
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "40-49"
+  },
+  {
+    "#": "3",
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "50-59"
+  },
+  {
+    "#": "3",
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "60-69"
+  },
+  {
+    "#": "3",
+    "Variable": "agegp",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": ">= 70"
+  },
+  {
+    "#": "4",
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "White"
+  },
+  {
+    "#": "4",
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Black or African-American"
+  },
+  {
+    "#": "4",
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Asian"
+  },
+  {
+    "#": "4",
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Native Hawaiian or other Pacific islander"
+  },
+  {
+    "#": "4",
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "American Indian or Aleska Native"
+  },
+  {
+    "#": "4",
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Unknown"
+  },
+  {
+    "#": "5",
+    "Variable": "kpr",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": ">= 90"
+  },
+  {
+    "#": "5",
+    "Variable": "kpr",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "< 90"
+  },
+  {
+    "#": "5",
+    "Variable": "kpr",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "6",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI score",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "0"
+  },
+  {
+    "#": "6",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "1"
+  },
+  {
+    "#": "6",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI score",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2"
+  },
+  {
+    "#": "6",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI score",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "3"
+  },
+  {
+    "#": "6",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI score",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "4"
+  },
+  {
+    "#": "6",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI score",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "5"
+  },
+  {
+    "#": "6",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI score",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "6+"
+  },
+  {
+    "#": "6",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "7",
+    "Variable": "indxtx",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "8",
+    "Variable": "lpamgp",
+    "Description": "Melphalan dose(mg/m^2)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "MEL 140"
+  },
+  {
+    "#": "8",
+    "Variable": "lpamgp",
+    "Description": "Melphalan dose(mg/m^2)",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "MEL 200"
+  },
+  {
+    "#": "8",
+    "Variable": "lpamgp",
+    "Description": "Melphalan dose(mg/m^2)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Unknown dose"
+  },
+  {
+    "#": "9",
+    "Variable": "creatdxgp",
+    "Description": "Creatinine at diagnosis, mg/dL",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<2mg/dL"
+  },
+  {
+    "#": "9",
+    "Variable": "creatdxgp",
+    "Description": "Creatinine at diagnosis, mg/dL",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": ">2mg/dL"
+  },
+  {
+    "#": "10",
+    "Variable": "cvahct",
+    "Description": "Organ involvement based on HCT-CI: Cerebrovascular",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": "10",
+    "Variable": "cvahct",
+    "Description": "Organ involvement based on HCT-CI: Cerebrovascular",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": "10",
+    "Variable": "cvahct",
+    "Description": "Organ involvement based on HCT-CI: Cerebrovascular",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "11",
+    "Variable": "hephct",
+    "Description": "Organ involvement based on HCT-CI: Hepatic",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": "11",
+    "Variable": "hephct",
+    "Description": "Organ involvement based on HCT-CI: Hepatic",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": "11",
+    "Variable": "hephct",
+    "Description": "Organ involvement based on HCT-CI: Hepatic",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "12",
+    "Variable": "pulmohct",
+    "Description": "Organ involvement based on HCT-CI: Pulmonary",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": "12",
+    "Variable": "pulmohct",
+    "Description": "Organ involvement based on HCT-CI: Pulmonary",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": "12",
+    "Variable": "pulmohct",
+    "Description": "Organ involvement based on HCT-CI: Pulmonary",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "13",
+    "Variable": "mobilization",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "GCSF + Plerixafor + Chemo"
+  },
+  {
+    "#": "13",
+    "Variable": "mobilization",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "GCSF + Plerixafor"
+  },
+  {
+    "#": "13",
+    "Variable": "mobilization",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "GCSF + Chemo"
+  },
+  {
+    "#": "13",
+    "Variable": "mobilization",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "GCSF"
+  },
+  {
+    "#": "13",
+    "Variable": "mobilization",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Chemotherapy"
+  },
+  {
+    "#": "13",
+    "Variable": "mobilization",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "14",
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "0-6 months"
+  },
+  {
+    "#": "14",
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "6-12 months"
+  },
+  {
+    "#": "14",
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "12-24 months"
+  },
+  {
+    "#": "14",
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": ">24 months"
+  },
+  {
+    "#": "14",
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "15",
+    "Variable": "intxsurv",
+    "Description": "Time from HCT to last follow-up, months",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "16",
+    "Variable": "dead",
+    "Description": "Dead",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": "16",
+    "Variable": "dead",
+    "Description": "Dead",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": "16",
+    "Variable": "dead",
+    "Description": "Dead",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "17",
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": "17",
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": "17",
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "18",
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse / death",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "19",
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": "19",
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": "19",
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "20",
+    "Variable": "dfs",
+    "Description": "Disease-free survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": "20",
+    "Variable": "dfs",
+    "Description": "Disease-free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": "20",
+    "Variable": "dfs",
+    "Description": "Disease-free survival",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "21",
+    "Variable": "dccn",
+    "Description": "Dummy CCN",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "22",
+    "Variable": "dcrid",
+    "Description": "Dummy CRID",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "23",
+    "Variable": "myestaprgpmva",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "sCR/CR/VGPR"
+  },
+  {
+    "#": "23",
+    "Variable": "myestaprgpmva",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "PR"
+  },
+  {
+    "#": "23",
+    "Variable": "myestaprgpmva",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "SD/PD/Relapse"
+  },
+  {
+    "#": "23",
+    "Variable": "myestaprgpmva",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Never treated"
+  },
+  {
+    "#": "23",
+    "Variable": "myestaprgpmva",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "* Supplemental data from high volume centers not included within this datafile. CRF-level data nor included in the public datafile due to small number of cases",
+    "Variable": "myestaprgpmva",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": "** Multiple Myeloma cases are available on CIBMTR website from publication: \"Novel prognostic scoring system for autologous hematopoietic cell transplantation in multiple myeloma.\"",
+    "Variable": "myestaprgpmva",
+    "Description": "Disease status prior to transplant",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  }
+]

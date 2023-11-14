@@ -1,0 +1,1158 @@
+[
+  {
+    "#": "1",
+    "Variable": "pseudoid",
+    "Description": "Pseudo Recipient ID"
+  },
+  {
+    "#": "2",
+    "Variable": "pseudoccn",
+    "Description": "Pseudo Center"
+  },
+  {
+    "#": "Main effect",
+    "Variable": "pseudoccn",
+    "Description": "Pseudo Center"
+  },
+  {
+    "#": "3",
+    "Variable": "drabomatch",
+    "Description": "Donor-recipient ABO match",
+    "Value": "0",
+    "Label": "Matched"
+  },
+  {
+    "#": "3",
+    "Variable": "drabomatch",
+    "Description": "Donor-recipient ABO match",
+    "Value": "1",
+    "Label": "Minor mismatch"
+  },
+  {
+    "#": "3",
+    "Variable": "drabomatch",
+    "Description": "Donor-recipient ABO match",
+    "Value": "2",
+    "Label": "Major mismatch"
+  },
+  {
+    "#": "3",
+    "Variable": "drabomatch",
+    "Description": "Donor-recipient ABO match",
+    "Value": "3",
+    "Label": "Bi-directional"
+  },
+  {
+    "#": "Recipient variables",
+    "Variable": "drabomatch",
+    "Description": "Donor-recipient ABO match",
+    "Value": "3",
+    "Label": "Bi-directional"
+  },
+  {
+    "#": "4",
+    "Variable": "age",
+    "Description": "Recipient age",
+    "Value": "Continuous",
+    "Label": "Bi-directional"
+  },
+  {
+    "#": "5",
+    "Variable": "agegp",
+    "Description": "Recipient age group",
+    "Value": "1",
+    "Label": "18-29"
+  },
+  {
+    "#": "5",
+    "Variable": "agegp",
+    "Description": "Recipient age group",
+    "Value": "2",
+    "Label": "30-39"
+  },
+  {
+    "#": "5",
+    "Variable": "agegp",
+    "Description": "Recipient age group",
+    "Value": "3",
+    "Label": "40-49"
+  },
+  {
+    "#": "5",
+    "Variable": "agegp",
+    "Description": "Recipient age group",
+    "Value": "4",
+    "Label": "50-59"
+  },
+  {
+    "#": "5",
+    "Variable": "agegp",
+    "Description": "Recipient age group",
+    "Value": "5",
+    "Label": "60-69"
+  },
+  {
+    "#": "5",
+    "Variable": "agegp",
+    "Description": "Recipient age group",
+    "Value": "6",
+    "Label": "70+"
+  },
+  {
+    "#": "6",
+    "Variable": "sex",
+    "Description": "Recipient sex",
+    "Value": "1",
+    "Label": "Male"
+  },
+  {
+    "#": "6",
+    "Variable": "sex",
+    "Description": "Recipient sex",
+    "Value": "2",
+    "Label": "Female"
+  },
+  {
+    "#": "7",
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Value": "1",
+    "Label": "White"
+  },
+  {
+    "#": "7",
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Value": "2",
+    "Label": "Black or African American"
+  },
+  {
+    "#": "7",
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Value": "3",
+    "Label": "Asian"
+  },
+  {
+    "#": "7",
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Value": "4",
+    "Label": "Native Hawaiian or other Pacific Islander"
+  },
+  {
+    "#": "7",
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Value": "5",
+    "Label": "American Indian or Alaska Native"
+  },
+  {
+    "#": "7",
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Value": "6",
+    "Label": "More than one race"
+  },
+  {
+    "#": "7",
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "8",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI group",
+    "Value": "0",
+    "Label": "0"
+  },
+  {
+    "#": "8",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI group",
+    "Value": "1",
+    "Label": "1"
+  },
+  {
+    "#": "8",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI group",
+    "Value": "2",
+    "Label": "2"
+  },
+  {
+    "#": "8",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI group",
+    "Value": "3",
+    "Label": "3+"
+  },
+  {
+    "#": "8",
+    "Variable": "hctcigp",
+    "Description": "HCT-CI group",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "9",
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI group",
+    "Value": "0",
+    "Label": "0"
+  },
+  {
+    "#": "9",
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI group",
+    "Value": "1",
+    "Label": "1-2"
+  },
+  {
+    "#": "9",
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI group",
+    "Value": "2",
+    "Label": "3+"
+  },
+  {
+    "#": "9",
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI group",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "10",
+    "Variable": "karnofcat",
+    "Description": "Karnofsky/Lansky performance score",
+    "Value": "1",
+    "Label": "90-100"
+  },
+  {
+    "#": "10",
+    "Variable": "karnofcat",
+    "Description": "Karnofsky/Lansky performance score",
+    "Value": "2",
+    "Label": "<90"
+  },
+  {
+    "#": "10",
+    "Variable": "karnofcat",
+    "Description": "Karnofsky/Lansky performance score",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "Disease variables",
+    "Variable": "karnofcat",
+    "Description": "Karnofsky/Lansky performance score",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "11",
+    "Variable": "dis",
+    "Description": "Primary disease",
+    "Value": "1",
+    "Label": "AML"
+  },
+  {
+    "#": "11",
+    "Variable": "dis",
+    "Description": "Primary disease",
+    "Value": "2",
+    "Label": "ALL"
+  },
+  {
+    "#": "12",
+    "Variable": "alstatprgp",
+    "Description": "Disease status at time of HCT",
+    "Value": "1",
+    "Label": "PIF"
+  },
+  {
+    "#": "12",
+    "Variable": "alstatprgp",
+    "Description": "Disease status at time of HCT",
+    "Value": "2",
+    "Label": "CR1"
+  },
+  {
+    "#": "12",
+    "Variable": "alstatprgp",
+    "Description": "Disease status at time of HCT",
+    "Value": "3",
+    "Label": "CR2"
+  },
+  {
+    "#": "12",
+    "Variable": "alstatprgp",
+    "Description": "Disease status at time of HCT",
+    "Value": "4",
+    "Label": ">=CR3"
+  },
+  {
+    "#": "12",
+    "Variable": "alstatprgp",
+    "Description": "Disease status at time of HCT",
+    "Value": "5",
+    "Label": "Relapse"
+  },
+  {
+    "#": "12",
+    "Variable": "alstatprgp",
+    "Description": "Disease status at time of HCT",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "Transplant variables",
+    "Variable": "alstatprgp",
+    "Description": "Disease status at time of HCT",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "12",
+    "Variable": "condtbi",
+    "Description": "Conditioning intensity and TBI use",
+    "Value": "1",
+    "Label": "MAC TBI"
+  },
+  {
+    "#": "12",
+    "Variable": "condtbi",
+    "Description": "Conditioning intensity and TBI use",
+    "Value": "2",
+    "Label": "MAC non-TBI"
+  },
+  {
+    "#": "12",
+    "Variable": "condtbi",
+    "Description": "Conditioning intensity and TBI use",
+    "Value": "3",
+    "Label": "RIC/NMA"
+  },
+  {
+    "#": "12",
+    "Variable": "condtbi",
+    "Description": "Conditioning intensity and TBI use",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "13",
+    "Variable": "gvhdprgp",
+    "Description": "GVHD Prophylaxis",
+    "Value": "0",
+    "Label": "Post Cy"
+  },
+  {
+    "#": "13",
+    "Variable": "gvhdprgp",
+    "Description": "GVHD Prophylaxis",
+    "Value": "1",
+    "Label": "TAC+MTX± others"
+  },
+  {
+    "#": "13",
+    "Variable": "gvhdprgp",
+    "Description": "GVHD Prophylaxis",
+    "Value": "2",
+    "Label": "TAC+MMF± others"
+  },
+  {
+    "#": "13",
+    "Variable": "gvhdprgp",
+    "Description": "GVHD Prophylaxis",
+    "Value": "3",
+    "Label": "TAC±others"
+  },
+  {
+    "#": "13",
+    "Variable": "gvhdprgp",
+    "Description": "GVHD Prophylaxis",
+    "Value": "4",
+    "Label": "CSA+MMF±others"
+  },
+  {
+    "#": "13",
+    "Variable": "gvhdprgp",
+    "Description": "GVHD Prophylaxis",
+    "Value": "5",
+    "Label": "CSA+MTX±others"
+  },
+  {
+    "#": "13",
+    "Variable": "gvhdprgp",
+    "Description": "GVHD Prophylaxis",
+    "Value": "6",
+    "Label": "Others"
+  },
+  {
+    "#": "14",
+    "Variable": "gvhdprgp2",
+    "Description": "GVHD Prophylaxis",
+    "Value": "1",
+    "Label": "TAC +/- others"
+  },
+  {
+    "#": "14",
+    "Variable": "gvhdprgp2",
+    "Description": "GVHD Prophylaxis",
+    "Value": "2",
+    "Label": "CSA +/- others"
+  },
+  {
+    "#": "14",
+    "Variable": "gvhdprgp2",
+    "Description": "GVHD Prophylaxis",
+    "Value": "3",
+    "Label": "PTCy +/- others"
+  },
+  {
+    "#": "14",
+    "Variable": "gvhdprgp2",
+    "Description": "GVHD Prophylaxis",
+    "Value": "4",
+    "Label": "Other(s)"
+  },
+  {
+    "#": "14",
+    "Variable": "gvhdprgp2",
+    "Description": "GVHD Prophylaxis",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "15",
+    "Variable": "atgcampathgp2",
+    "Description": "ATG/alemtuzumab",
+    "Value": "1",
+    "Label": "ATG or Campath"
+  },
+  {
+    "#": "15",
+    "Variable": "atgcampathgp2",
+    "Description": "ATG/alemtuzumab",
+    "Value": "2",
+    "Label": "No ATG or Campath"
+  },
+  {
+    "#": "15",
+    "Variable": "atgcampathgp2",
+    "Description": "ATG/alemtuzumab",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "16",
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Value": "1",
+    "Label": "Bone marrow"
+  },
+  {
+    "#": "16",
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Value": "2",
+    "Label": "Peripheral blood"
+  },
+  {
+    "#": "17",
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Value": "1",
+    "Label": "HLA-identical sibling"
+  },
+  {
+    "#": "17",
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Value": "2",
+    "Label": "Well-matched unrelated (8/8)"
+  },
+  {
+    "#": "18",
+    "Variable": "dnrage_urd",
+    "Description": "Donor age for unrelated donors only",
+    "Value": "Continuous",
+    "Label": "Well-matched unrelated (8/8)"
+  },
+  {
+    "#": "19",
+    "Variable": "dagegp",
+    "Description": "Donor age group for unrelated donors only",
+    "Value": "-9",
+    "Label": "NA, HLA-identical sibling"
+  },
+  {
+    "#": "19",
+    "Variable": "dagegp",
+    "Description": "Donor age group for unrelated donors only",
+    "Value": "1",
+    "Label": "18-29"
+  },
+  {
+    "#": "19",
+    "Variable": "dagegp",
+    "Description": "Donor age group for unrelated donors only",
+    "Value": "2",
+    "Label": "30-39"
+  },
+  {
+    "#": "19",
+    "Variable": "dagegp",
+    "Description": "Donor age group for unrelated donors only",
+    "Value": "3",
+    "Label": "40-49"
+  },
+  {
+    "#": "19",
+    "Variable": "dagegp",
+    "Description": "Donor age group for unrelated donors only",
+    "Value": "4",
+    "Label": "50-59"
+  },
+  {
+    "#": "19",
+    "Variable": "dagegp",
+    "Description": "Donor age group for unrelated donors only",
+    "Value": "5",
+    "Label": "60-69"
+  },
+  {
+    "#": "19",
+    "Variable": "dagegp",
+    "Description": "Donor age group for unrelated donors only",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "20",
+    "Variable": "drrh",
+    "Description": "Donor-recipient Rh factor",
+    "Value": "0",
+    "Label": "+/+"
+  },
+  {
+    "#": "20",
+    "Variable": "drrh",
+    "Description": "Donor-recipient Rh factor",
+    "Value": "1",
+    "Label": "+/-"
+  },
+  {
+    "#": "20",
+    "Variable": "drrh",
+    "Description": "Donor-recipient Rh factor",
+    "Value": "2",
+    "Label": "-/+"
+  },
+  {
+    "#": "20",
+    "Variable": "drrh",
+    "Description": "Donor-recipient Rh factor",
+    "Value": "3",
+    "Label": "-/-"
+  },
+  {
+    "#": "20",
+    "Variable": "drrh",
+    "Description": "Donor-recipient Rh factor",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "21",
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV serostatus",
+    "Value": "0",
+    "Label": "+/+"
+  },
+  {
+    "#": "21",
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV serostatus",
+    "Value": "1",
+    "Label": "+/-"
+  },
+  {
+    "#": "21",
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV serostatus",
+    "Value": "2",
+    "Label": "-/+"
+  },
+  {
+    "#": "21",
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV serostatus",
+    "Value": "3",
+    "Label": "-/-"
+  },
+  {
+    "#": "21",
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV serostatus",
+    "Value": "99.1",
+    "Label": "Missing - donor"
+  },
+  {
+    "#": "21",
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV serostatus",
+    "Value": "99.2",
+    "Label": "Missing - recipient"
+  },
+  {
+    "#": "21",
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV serostatus",
+    "Value": "99.3",
+    "Label": "Missing - recipient not tested, inconclusive"
+  },
+  {
+    "#": "22",
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex",
+    "Value": "1",
+    "Label": "M-M"
+  },
+  {
+    "#": "22",
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex",
+    "Value": "2",
+    "Label": "M-F"
+  },
+  {
+    "#": "22",
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex",
+    "Value": "3",
+    "Label": "F-M"
+  },
+  {
+    "#": "22",
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex",
+    "Value": "4",
+    "Label": "F-F"
+  },
+  {
+    "#": "23",
+    "Variable": "rbcreduc13",
+    "Description": "RBC depletion - for form 2006 version 1-3",
+    "Value": "-9.1999999999999993",
+    "Label": "NA, different form version"
+  },
+  {
+    "#": "23",
+    "Variable": "rbcreduc13",
+    "Description": "RBC depletion - for form 2006 version 1-3",
+    "Value": "-9.1",
+    "Label": "NA, graft manipulation data not available"
+  },
+  {
+    "#": "23",
+    "Variable": "rbcreduc13",
+    "Description": "RBC depletion - for form 2006 version 1-3",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": "23",
+    "Variable": "rbcreduc13",
+    "Description": "RBC depletion - for form 2006 version 1-3",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": "24",
+    "Variable": "buffycp13",
+    "Description": "Buffy coat preparation - for form 2006 version 1-3",
+    "Value": "-9.3000000000000007",
+    "Label": "NA, only complete if RBC depletion on form 2006 version 1-3 is yes"
+  },
+  {
+    "#": "24",
+    "Variable": "buffycp13",
+    "Description": "Buffy coat preparation - for form 2006 version 1-3",
+    "Value": "-9.1999999999999993",
+    "Label": "NA, different form version"
+  },
+  {
+    "#": "24",
+    "Variable": "buffycp13",
+    "Description": "Buffy coat preparation - for form 2006 version 1-3",
+    "Value": "-9.1",
+    "Label": "NA, graft manipulation data not available"
+  },
+  {
+    "#": "24",
+    "Variable": "buffycp13",
+    "Description": "Buffy coat preparation - for form 2006 version 1-3",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": "24",
+    "Variable": "buffycp13",
+    "Description": "Buffy coat preparation - for form 2006 version 1-3",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": "25",
+    "Variable": "rbcreduc4",
+    "Description": "RBC depletion - for form 2006 version 4",
+    "Value": "-9.1999999999999993",
+    "Label": "NA, different form version"
+  },
+  {
+    "#": "25",
+    "Variable": "rbcreduc4",
+    "Description": "RBC depletion - for form 2006 version 4",
+    "Value": "-9.1",
+    "Label": "NA, graft manipulation data not available"
+  },
+  {
+    "#": "25",
+    "Variable": "rbcreduc4",
+    "Description": "RBC depletion - for form 2006 version 4",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": "25",
+    "Variable": "rbcreduc4",
+    "Description": "RBC depletion - for form 2006 version 4",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": "26",
+    "Variable": "buffycp4",
+    "Description": "Buffy coat preparation - for form 2006 version 4",
+    "Value": "-9.1999999999999993",
+    "Label": "Yes"
+  },
+  {
+    "#": "26",
+    "Variable": "buffycp4",
+    "Description": "Buffy coat preparation - for form 2006 version 4",
+    "Value": "-9.1",
+    "Label": "NA, graft manipulation data not available"
+  },
+  {
+    "#": "26",
+    "Variable": "buffycp4",
+    "Description": "Buffy coat preparation - for form 2006 version 4",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": "26",
+    "Variable": "buffycp4",
+    "Description": "Buffy coat preparation - for form 2006 version 4",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": "27",
+    "Variable": "plasmarmv",
+    "Description": "Volume reduction/plasma reduced",
+    "Value": "-9.1",
+    "Label": "NA, graft manipulation data not available"
+  },
+  {
+    "#": "27",
+    "Variable": "plasmarmv",
+    "Description": "Volume reduction/plasma reduced",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": "27",
+    "Variable": "plasmarmv",
+    "Description": "Volume reduction/plasma reduced",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": "28",
+    "Variable": "yeartx",
+    "Description": "Year of transplant",
+    "Value": "Continuous",
+    "Label": "Yes"
+  },
+  {
+    "#": "Outcome variables",
+    "Variable": "yeartx",
+    "Description": "Year of transplant",
+    "Value": "Continuous",
+    "Label": "Yes"
+  },
+  {
+    "#": "29",
+    "Variable": "anc",
+    "Description": "ANC recovery",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "29",
+    "Variable": "anc",
+    "Description": "ANC recovery",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "29",
+    "Variable": "anc",
+    "Description": "ANC recovery",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "30",
+    "Variable": "dwoancrel",
+    "Description": "Death without ANC/relapse w/in 28d prior to ANC recovery",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "30",
+    "Variable": "dwoancrel",
+    "Description": "Death without ANC/relapse w/in 28d prior to ANC recovery",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "30",
+    "Variable": "dwoancrel",
+    "Description": "Death without ANC/relapse w/in 28d prior to ANC recovery",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "31",
+    "Variable": "intxanc",
+    "Description": "Time from HCT to neutrophil engraftment, months",
+    "Value": "Continuous",
+    "Label": "Missing"
+  },
+  {
+    "#": "32",
+    "Variable": "plt",
+    "Description": "Platelet recovery",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "32",
+    "Variable": "plt",
+    "Description": "Platelet recovery",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "32",
+    "Variable": "plt",
+    "Description": "Platelet recovery",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "33",
+    "Variable": "dwoplt",
+    "Description": "Dead without platelet recovery",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "33",
+    "Variable": "dwoplt",
+    "Description": "Dead without platelet recovery",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "33",
+    "Variable": "dwoplt",
+    "Description": "Dead without platelet recovery",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "34",
+    "Variable": "intxplt",
+    "Description": "Time from HCT to platelet recovery, months",
+    "Value": "Continuous",
+    "Label": "Missing"
+  },
+  {
+    "#": "35",
+    "Variable": "agvhd24",
+    "Description": "AGVHD II-IV (computed maximum grade)",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "35",
+    "Variable": "agvhd24",
+    "Description": "AGVHD II-IV (computed maximum grade)",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "35",
+    "Variable": "agvhd24",
+    "Description": "AGVHD II-IV (computed maximum grade)",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "36",
+    "Variable": "dwoagvhd24",
+    "Description": "Dead without grade II-IV aGVHD",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "36",
+    "Variable": "dwoagvhd24",
+    "Description": "Dead without grade II-IV aGVHD",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "36",
+    "Variable": "dwoagvhd24",
+    "Description": "Dead without grade II-IV aGVHD",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "37",
+    "Variable": "intxagvhd24",
+    "Description": "Time from HCT to diagnosis of aGVHD for cases with max grade II-IV, second transplant/DCI or follow-up, months",
+    "Value": "Continuous",
+    "Label": "Missing"
+  },
+  {
+    "#": "38",
+    "Variable": "agvhd34",
+    "Description": "AGVHD III-IV (computed maximum grade)",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "38",
+    "Variable": "agvhd34",
+    "Description": "AGVHD III-IV (computed maximum grade)",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "38",
+    "Variable": "agvhd34",
+    "Description": "AGVHD III-IV (computed maximum grade)",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "39",
+    "Variable": "dwoagvhd34",
+    "Description": "Dead without grade III-IV aGVHD",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "39",
+    "Variable": "dwoagvhd34",
+    "Description": "Dead without grade III-IV aGVHD",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "39",
+    "Variable": "dwoagvhd34",
+    "Description": "Dead without grade III-IV aGVHD",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "40",
+    "Variable": "intxagvhd34",
+    "Description": "Time from HCT to diagnosis of aGVHD for cases with max grade III-IV, second transplant/DCI or follow-up, months",
+    "Value": "Continuous",
+    "Label": "Missing"
+  },
+  {
+    "#": "41",
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "41",
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "41",
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "42",
+    "Variable": "dwocgvhd",
+    "Description": "Dead without chronic GVHD",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "42",
+    "Variable": "dwocgvhd",
+    "Description": "Dead without chronic GVHD",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "42",
+    "Variable": "dwocgvhd",
+    "Description": "Dead without chronic GVHD",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "43",
+    "Variable": "intxcgvhd",
+    "Description": "Time from HCT to diagnosis of chronic GVHD, second transplant/DCI or follow-up, months",
+    "Value": "Continuous",
+    "Label": "Missing"
+  },
+  {
+    "#": "44",
+    "Variable": "dfs",
+    "Description": "Disease-free survival",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "44",
+    "Variable": "dfs",
+    "Description": "Disease-free survival",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "44",
+    "Variable": "dfs",
+    "Description": "Disease-free survival",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "45",
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "45",
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "45",
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "46",
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "46",
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "46",
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": "47",
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse / death",
+    "Value": "Continuous",
+    "Label": "Missing"
+  },
+  {
+    "#": "48",
+    "Variable": "dead",
+    "Description": "Dead",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "48",
+    "Variable": "dead",
+    "Description": "Dead",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "49",
+    "Variable": "intxsurv",
+    "Description": "Time from HCT to last follow-up, months",
+    "Value": "Continuous",
+    "Label": "Event"
+  },
+  {
+    "#": "50",
+    "Variable": "pgf",
+    "Description": "Primary graft failure (ANC recovery by day 28)",
+    "Value": "0",
+    "Label": "Censoring"
+  },
+  {
+    "#": "50",
+    "Variable": "pgf",
+    "Description": "Primary graft failure (ANC recovery by day 28)",
+    "Value": "1",
+    "Label": "Event"
+  },
+  {
+    "#": "50",
+    "Variable": "pgf",
+    "Description": "Primary graft failure (ANC recovery by day 28)",
+    "Value": "99",
+    "Label": "Missing"
+  }
+]

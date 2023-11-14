@@ -1,0 +1,890 @@
+[
+  {
+    "Variable": "dummycrid",
+    "Description": "Dummy ID",
+    "Type": "Continuous"
+  },
+  {
+    "Variable": "dummycrid",
+    "Description": "Dummy ID",
+    "Type": "Continuous"
+  },
+  {
+    "Variable": "dummyccn",
+    "Description": "Dummy CCN",
+    "Type": "Continuous"
+  },
+  {
+    "Variable": "dummyccn",
+    "Description": "Dummy CCN",
+    "Type": "Continuous"
+  },
+  {
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Non-Hispanic white"
+  },
+  {
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Non-Hispanic black"
+  },
+  {
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Hispanic"
+  },
+  {
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Asian"
+  },
+  {
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Asian"
+  },
+  {
+    "Variable": "povarea",
+    "Description": "Neighborhood poverty",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Low poverty neighborhood"
+  },
+  {
+    "Variable": "povarea",
+    "Description": "Neighborhood poverty",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "High poverty neighborhood"
+  },
+  {
+    "Variable": "povarea",
+    "Description": "Neighborhood poverty",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "High poverty neighborhood"
+  },
+  {
+    "Variable": "centerflag",
+    "Description": "Centers with patients in each of main racial groups",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "centerflag",
+    "Description": "Centers with patients in each of main racial groups",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "centerflag",
+    "Description": "Centers with patients in each of main racial groups",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "centerflag",
+    "Description": "Centers with patients in each of main racial groups",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "age",
+    "Description": "Age at HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "age",
+    "Description": "Age at HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at HCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "18-29"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at HCT",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "30-39"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at HCT",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "40-49"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at HCT",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "50-59"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at HCT",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "60-69"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at HCT",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": ">=70"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at HCT",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": ">=70"
+  },
+  {
+    "Variable": "sex",
+    "Description": "Recipient sex",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "Variable": "sex",
+    "Description": "Recipient sex",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "Variable": "sex",
+    "Description": "Recipient sex",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "Variable": "hctcigpc",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "0"
+  },
+  {
+    "Variable": "hctcigpc",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "44928"
+  },
+  {
+    "Variable": "hctcigpc",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "3+"
+  },
+  {
+    "Variable": "hctcigpc",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "hctcigpc",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "insurgrp",
+    "Description": "Health insurance type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Disability insurance +/-others"
+  },
+  {
+    "Variable": "insurgrp",
+    "Description": "Health insurance type",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Private health insurance +/- others"
+  },
+  {
+    "Variable": "insurgrp",
+    "Description": "Health insurance type",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Medicaid +/-others"
+  },
+  {
+    "Variable": "insurgrp",
+    "Description": "Health insurance type",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Medicare +/-others"
+  },
+  {
+    "Variable": "insurgrp",
+    "Description": "Health insurance type",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Other"
+  },
+  {
+    "Variable": "insurgrp",
+    "Description": "Health insurance type",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "insurgrp",
+    "Description": "Health insurance type",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "marstat",
+    "Description": "Marital status",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Single, never married"
+  },
+  {
+    "Variable": "marstat",
+    "Description": "Marital status",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Married"
+  },
+  {
+    "Variable": "marstat",
+    "Description": "Marital status",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Separated"
+  },
+  {
+    "Variable": "marstat",
+    "Description": "Marital status",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Divorced"
+  },
+  {
+    "Variable": "marstat",
+    "Description": "Marital status",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Widowed"
+  },
+  {
+    "Variable": "marstat",
+    "Description": "Marital status",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "marstat",
+    "Description": "Marital status",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "txdistgp",
+    "Description": "Distance between residence and transplant center (mi)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "< 20"
+  },
+  {
+    "Variable": "txdistgp",
+    "Description": "Distance between residence and transplant center (mi)",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "20-50"
+  },
+  {
+    "Variable": "txdistgp",
+    "Description": "Distance between residence and transplant center (mi)",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "50-150"
+  },
+  {
+    "Variable": "txdistgp",
+    "Description": "Distance between residence and transplant center (mi)",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "> 150"
+  },
+  {
+    "Variable": "txdistgp",
+    "Description": "Distance between residence and transplant center (mi)",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "> 150"
+  },
+  {
+    "Variable": "ruralzip",
+    "Description": "Urban/rural residence",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Urban"
+  },
+  {
+    "Variable": "ruralzip",
+    "Description": "Urban/rural residence",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Rural"
+  },
+  {
+    "Variable": "ruralzip",
+    "Description": "Urban/rural residence",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Rural"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 10,
+    "Label": "AML"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 20,
+    "Label": "ALL"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 40,
+    "Label": "CML"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 50,
+    "Label": "MDS"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 50,
+    "Label": "MDS"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Refined disease risk index",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Low"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Refined disease risk index",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Intermediate"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Refined disease risk index",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "High"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Refined disease risk index",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Very high"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Refined disease risk index",
+    "Type": "Categorical",
+    "Value": 80,
+    "Label": "N/A - year of transplant <2008"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Refined disease risk index",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Refined disease risk index",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "yeartx",
+    "Description": "Year of HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "yeartx",
+    "Description": "Year of HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "condintb",
+    "Description": "Conditioning intensity",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "MAC"
+  },
+  {
+    "Variable": "condintb",
+    "Description": "Conditioning intensity",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "RIC/NMA"
+  },
+  {
+    "Variable": "condintb",
+    "Description": "Conditioning intensity",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "condintb",
+    "Description": "Conditioning intensity",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "tbigp",
+    "Description": "TBI usage",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "tbigp",
+    "Description": "TBI usage",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "tbigp",
+    "Description": "TBI usage",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "tbigp",
+    "Description": "TBI usage",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "HLA-identical sibling"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Other related"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Well-matched unrelated (8/8)"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Partially-matched unrelated (7/8)"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "Mis-matched unrelated (<= 6/8)"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Cord blood"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Cord blood"
+  },
+  {
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Bone marrow"
+  },
+  {
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 22,
+    "Label": "Peripheral blood"
+  },
+  {
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 23,
+    "Label": "Cord blood"
+  },
+  {
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 23,
+    "Label": "Cord blood"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3.1,
+    "Label": "Post-CY + other(s)"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3.2,
+    "Label": "Post-CY alone"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "TAC + MMF +- other(s) (except post-CY)"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "TAC + MTX +- other(s) (except MMF, post-CY)"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "TAC + other(s) (except MMF, MTX, post-CY)"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "TAC alone"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "CSA + MMF +- other(s) (except post-CY)"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "CSA + MTX +- other(s) (except MMF, post-CY)"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 10,
+    "Label": "CSA + other(s) (except MMF, MTX, post-CY)"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 11,
+    "Label": "CSA alone"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 20,
+    "Label": "Other(s)"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agvhd",
+    "Description": "Acute GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "agvhd",
+    "Description": "Acute GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "agvhd",
+    "Description": "Acute GVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agvhd",
+    "Description": "Acute GVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxagvhd",
+    "Description": "Time between transplant and acute GVHD, months",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxagvhd",
+    "Description": "Time between transplant and acute GVHD, months",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgvhd1y",
+    "Description": "Chronic GVHD before 1 year",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgvhd1y",
+    "Description": "Chronic GVHD before 1 year",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgvhd1y",
+    "Description": "Chronic GVHD before 1 year",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgvhd1y",
+    "Description": "Chronic GVHD before 1 year",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxcgvhd",
+    "Description": "Time between transplant and chronic GVHD, months",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxcgvhd",
+    "Description": "Time between transplant and chronic GVHD, months",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse, months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse, months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "intxsurv",
+    "Description": "Time from HCT to death/last follow-up date",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  }
+]

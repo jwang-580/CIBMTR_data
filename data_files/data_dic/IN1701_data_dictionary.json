@@ -1,0 +1,2350 @@
+[
+  {
+    "#": 1,
+    "Variable": "dummyid",
+    "Description": "Patient ID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 2,
+    "Variable": "dummyccn",
+    "Description": "Center ID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 3,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Male"
+  },
+  {
+    "#": 3,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Female"
+  },
+  {
+    "#": 3,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 4,
+    "Variable": "age",
+    "Description": "Patient age",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "<=10"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "11-20"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "21-30"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "31-40"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "41-50"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "51-60"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "61-70"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": ">70"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Age at transplant, in decades, years",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 6,
+    "Variable": "agegp2",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "0-20"
+  },
+  {
+    "#": 6,
+    "Variable": "agegp2",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "21-40"
+  },
+  {
+    "#": 6,
+    "Variable": "agegp2",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "41-60"
+  },
+  {
+    "#": 6,
+    "Variable": "agegp2",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": ">60"
+  },
+  {
+    "#": 6,
+    "Variable": "agegp2",
+    "Description": "Age at transplant, years",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 7,
+    "Variable": "kps",
+    "Description": "Karnofsky/Lansky performance at HCT",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "<80"
+  },
+  {
+    "#": 7,
+    "Variable": "kps",
+    "Description": "Karnofsky/Lansky performance at HCT",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "80-89"
+  },
+  {
+    "#": 7,
+    "Variable": "kps",
+    "Description": "Karnofsky/Lansky performance at HCT",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": ">=90"
+  },
+  {
+    "#": 7,
+    "Variable": "kps",
+    "Description": "Karnofsky/Lansky performance at HCT",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 8,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Caucasian"
+  },
+  {
+    "#": 8,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "African-American"
+  },
+  {
+    "#": 8,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "Asian"
+  },
+  {
+    "#": 8,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "Pacific islander"
+  },
+  {
+    "#": 8,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "Native American"
+  },
+  {
+    "#": 8,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "Other"
+  },
+  {
+    "#": 8,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": "More than one race"
+  },
+  {
+    "#": 8,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "-1",
+    "Label": "Cord blood"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "Related donor"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "0-17"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "18-20"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "21-30"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "31-40"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "41-50"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "51-60"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "61-70"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": ">70"
+  },
+  {
+    "#": 9,
+    "Variable": "dagegp",
+    "Description": "Donor age, in decades",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 10,
+    "Variable": "dnrage",
+    "Description": "Donor age, years",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 11,
+    "Variable": "sexmatch",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Male-Male"
+  },
+  {
+    "#": 11,
+    "Variable": "sexmatch",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Male-Female"
+  },
+  {
+    "#": 11,
+    "Variable": "sexmatch",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "Female-Male"
+  },
+  {
+    "#": 11,
+    "Variable": "sexmatch",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "Female-Female"
+  },
+  {
+    "#": 11,
+    "Variable": "sexmatch",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "+/+"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "+/-"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "-/+"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "-/-"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "+/?"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "-/?"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "?/+"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": "?/-"
+  },
+  {
+    "#": 12,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV status",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 13,
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": "10",
+    "Label": "AML"
+  },
+  {
+    "#": 13,
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": "20",
+    "Label": "ALL"
+  },
+  {
+    "#": 13,
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": "50",
+    "Label": "MDS"
+  },
+  {
+    "#": 14,
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "0"
+  },
+  {
+    "#": 14,
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "1-2"
+  },
+  {
+    "#": 14,
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "3-4"
+  },
+  {
+    "#": 14,
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "5+"
+  },
+  {
+    "#": 14,
+    "Variable": "hctcigp2",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 15,
+    "Variable": "distage",
+    "Description": "Disease status",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "AML/ALL, early"
+  },
+  {
+    "#": 15,
+    "Variable": "distage",
+    "Description": "Disease status",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "AML/ALL, intermidiat"
+  },
+  {
+    "#": 15,
+    "Variable": "distage",
+    "Description": "Disease status",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "AML/ALL, advanced"
+  },
+  {
+    "#": 15,
+    "Variable": "distage",
+    "Description": "Disease status",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "AML/ALL, unknown"
+  },
+  {
+    "#": 15,
+    "Variable": "distage",
+    "Description": "Disease status",
+    "Type": "Categorical",
+    "Value": "9",
+    "Label": "MDS, early"
+  },
+  {
+    "#": 15,
+    "Variable": "distage",
+    "Description": "Disease status",
+    "Type": "Categorical",
+    "Value": "10",
+    "Label": "MDS, advanced"
+  },
+  {
+    "#": 15,
+    "Variable": "distage",
+    "Description": "Disease status",
+    "Type": "Categorical",
+    "Value": "11",
+    "Label": "MDS, unknown"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "AML/ALL Normal"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "AML/ALL Favorable"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "AML/ALL Intermediate"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "AML/ALL Poor"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "MDS Very low"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "MDS Low"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "MDS Intermediate"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": "MDS High"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "9",
+    "Label": "MDS Very high"
+  },
+  {
+    "#": 16,
+    "Variable": "cyto",
+    "Description": "Cytogenetics/IPSS-R",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Other/not tested/Missing"
+  },
+  {
+    "#": 17,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Bone Marrow"
+  },
+  {
+    "#": 17,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": "22",
+    "Label": "Peripheral blood"
+  },
+  {
+    "#": 18,
+    "Variable": "condint2",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Myeloablative"
+  },
+  {
+    "#": 18,
+    "Variable": "condint2",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "RIC/NMA"
+  },
+  {
+    "#": 18,
+    "Variable": "condint2",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "Non Malignancies"
+  },
+  {
+    "#": 18,
+    "Variable": "condint2",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 19,
+    "Variable": "tbi",
+    "Description": "TBI",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 19,
+    "Variable": "tbi",
+    "Description": "TBI",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 19,
+    "Variable": "tbi",
+    "Description": "TBI",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No GVHD prophylaxis (forms under review)"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Ex vivo T-cell depletion"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "CD34 selection"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "Cyclophosphamide"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "3.1",
+    "Label": "Post-CY + other(s)"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "3.2",
+    "Label": "Post-CY alone"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "TAC/CSA + MMF +- others"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "TAC/CSA + MTX +- others"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "TAC/CSA + others (except MTX, MMF)"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "TAC/CSA alone"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": "MMF +/- Other"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "9",
+    "Label": "MTX +/- Other"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "12",
+    "Label": "SIRO +/- others (Not TAC/CSA)"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "14",
+    "Label": "Steroids alone"
+  },
+  {
+    "#": 20,
+    "Variable": "gvhdgp2",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "20",
+    "Label": "Other GVHD prophylaxis"
+  },
+  {
+    "#": 21,
+    "Variable": "ngfactor",
+    "Description": "G-CSF, GM-CSF",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 21,
+    "Variable": "ngfactor",
+    "Description": "G-CSF, GM-CSF",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 21,
+    "Variable": "ngfactor",
+    "Description": "G-CSF, GM-CSF",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 22,
+    "Variable": "intxdx",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 23,
+    "Variable": "intxdxgp2",
+    "Description": "Time from diagnosis to transplant",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "<6 month"
+  },
+  {
+    "#": 23,
+    "Variable": "intxdxgp2",
+    "Description": "Time from diagnosis to transplant",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "6 month-1Y"
+  },
+  {
+    "#": 23,
+    "Variable": "intxdxgp2",
+    "Description": "Time from diagnosis to transplant",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": ">=1Y"
+  },
+  {
+    "#": 23,
+    "Variable": "intxdxgp2",
+    "Description": "Time from diagnosis to transplant",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 24,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "2012-2014"
+  },
+  {
+    "#": 24,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "2015-2017"
+  },
+  {
+    "#": 25,
+    "Variable": "cmvmatchgp",
+    "Description": "CMV serostatus",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "R+"
+  },
+  {
+    "#": 25,
+    "Variable": "cmvmatchgp",
+    "Description": "CMV serostatus",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "D+/R-"
+  },
+  {
+    "#": 25,
+    "Variable": "cmvmatchgp",
+    "Description": "CMV serostatus",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "D-/R-"
+  },
+  {
+    "#": 25,
+    "Variable": "cmvmatchgp",
+    "Description": "CMV serostatus",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "Missing"
+  },
+  {
+    "#": 26,
+    "Variable": "agvhd24",
+    "Description": "Acute GVHD grade II-IV",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 26,
+    "Variable": "agvhd24",
+    "Description": "Acute GVHD grade II-IV",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 26,
+    "Variable": "agvhd24",
+    "Description": "Acute GVHD grade II-IV",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 27,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD(any severity) at 1 year",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 27,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD(any severity) at 1 year",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 27,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD(any severity) at 1 year",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 28,
+    "Variable": "intxcgvhd",
+    "Description": "Time between transplant and chronic GVHD, months",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 29,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 29,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 29,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 30,
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 31,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 31,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 31,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 32,
+    "Variable": "lfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 32,
+    "Variable": "lfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 32,
+    "Variable": "lfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "R+, HaploCy"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "R+, SibCy"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "R+, SibCNI"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "D+/R-, HaploCy"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "D+/R-, SibCy"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "D+/R-, SibCNI"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "D-/R-, HaploCy"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": "D-/R-, SibCy"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "9",
+    "Label": "D-/R-, SibCNI"
+  },
+  {
+    "#": 33,
+    "Variable": "case2",
+    "Description": "Group for impact of CMV serostatus",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 34,
+    "Variable": "case3",
+    "Description": "Group for impact of CMV reactivation",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "CMV yes, haplo with Cy"
+  },
+  {
+    "#": 34,
+    "Variable": "case3",
+    "Description": "Group for impact of CMV reactivation",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "CMV yes, HLA-Ids with Cy"
+  },
+  {
+    "#": 34,
+    "Variable": "case3",
+    "Description": "Group for impact of CMV reactivation",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "CMV yes, HLA-Ids without Cy"
+  },
+  {
+    "#": 34,
+    "Variable": "case3",
+    "Description": "Group for impact of CMV reactivation",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "CMV no, haplo with Cy"
+  },
+  {
+    "#": 34,
+    "Variable": "case3",
+    "Description": "Group for impact of CMV reactivation",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "CMV no, HLA-Ids with Cy"
+  },
+  {
+    "#": 34,
+    "Variable": "case3",
+    "Description": "Group for impact of CMV reactivation",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "CMV no, HLA-Ids without Cy"
+  },
+  {
+    "#": 35,
+    "Variable": "cmvgp",
+    "Description": "CMV reactivation",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 35,
+    "Variable": "cmvgp",
+    "Description": "CMV reactivation",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 36,
+    "Variable": "intxcmv",
+    "Description": "Time from HCT to CMV reactivation, months",
+    "Type": "Continuous",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 37,
+    "Variable": "cmv_blood_gp",
+    "Description": "CMV viremis",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 37,
+    "Variable": "cmv_blood_gp",
+    "Description": "CMV viremis",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 37,
+    "Variable": "cmv_blood_gp",
+    "Description": "CMV viremis",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 38,
+    "Variable": "intxcmv_blood",
+    "Description": "Time from HCT to CMV viremia,days",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 39,
+    "Variable": "cmv_oth_gp",
+    "Description": "CMV organ disease",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 39,
+    "Variable": "cmv_oth_gp",
+    "Description": "CMV organ disease",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 39,
+    "Variable": "cmv_oth_gp",
+    "Description": "CMV organ disease",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 40,
+    "Variable": "intxcmv_oth",
+    "Description": "Time from HCT to CMV organ disease (+/- viremia), days",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 41,
+    "Variable": "case",
+    "Description": "Main group",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Haplo identical with Cy"
+  },
+  {
+    "#": 41,
+    "Variable": "case",
+    "Description": "Main group",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "HLA Ids with Cy"
+  },
+  {
+    "#": 41,
+    "Variable": "case",
+    "Description": "Main group",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "HLA Ids without Cy"
+  },
+  {
+    "#": 42,
+    "Variable": "case4",
+    "Description": "Group for impact of Non-CMV Herpes viruses infection by day 180",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Non-CMV Herpes, HaploCy"
+  },
+  {
+    "#": 42,
+    "Variable": "case4",
+    "Description": "Group for impact of Non-CMV Herpes viruses infection by day 180",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Non-CMV Herpes, SibCy"
+  },
+  {
+    "#": 42,
+    "Variable": "case4",
+    "Description": "Group for impact of Non-CMV Herpes viruses infection by day 180",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "Non-CMV Herpes, SibCNI"
+  },
+  {
+    "#": 42,
+    "Variable": "case4",
+    "Description": "Group for impact of Non-CMV Herpes viruses infection by day 180",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "No Non-CMV Herpes, HaploCy"
+  },
+  {
+    "#": 42,
+    "Variable": "case4",
+    "Description": "Group for impact of Non-CMV Herpes viruses infection by day 180",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "No Non-CMV Herpes, SibCy"
+  },
+  {
+    "#": 42,
+    "Variable": "case4",
+    "Description": "Group for impact of Non-CMV Herpes viruses infection by day 180",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "No Non-CMV Herpes, SibCNI"
+  },
+  {
+    "#": 43,
+    "Variable": "numviral",
+    "Description": "Number of viral infections (any) by day 180",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "None"
+  },
+  {
+    "#": 43,
+    "Variable": "numviral",
+    "Description": "Number of viral infections (any) by day 180",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "1"
+  },
+  {
+    "#": 43,
+    "Variable": "numviral",
+    "Description": "Number of viral infections (any) by day 180",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "2"
+  },
+  {
+    "#": 43,
+    "Variable": "numviral",
+    "Description": "Number of viral infections (any) by day 180",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "3+"
+  },
+  {
+    "#": 43,
+    "Variable": "numviral",
+    "Description": "Number of viral infections (any) by day 180",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Misisng"
+  },
+  {
+    "#": 44,
+    "Variable": "herpgp",
+    "Description": "Non-CMV herpes viruses",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 44,
+    "Variable": "herpgp",
+    "Description": "Non-CMV herpes viruses",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 45,
+    "Variable": "intxherp",
+    "Description": "Time from HCT to non-CMV herpes viruses, months",
+    "Type": "Continuous",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 46,
+    "Variable": "herpesv",
+    "Description": "Non-CMV herpes viruses in blood",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 46,
+    "Variable": "herpesv",
+    "Description": "Non-CMV herpes viruses in blood",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 47,
+    "Variable": "vorg301",
+    "Description": "HSV, viremia",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 47,
+    "Variable": "vorg301",
+    "Description": "HSV, viremia",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 48,
+    "Variable": "vorg302",
+    "Description": "Varicella, viremia",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 48,
+    "Variable": "vorg302",
+    "Description": "Varicella, viremia",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 49,
+    "Variable": "vorg317",
+    "Description": "HHV-6,viremia",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 49,
+    "Variable": "vorg317",
+    "Description": "HHV-6,viremia",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 50,
+    "Variable": "vorg318",
+    "Description": "EBV, viremia",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 50,
+    "Variable": "vorg318",
+    "Description": "EBV, viremia",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 51,
+    "Variable": "herpesvend",
+    "Description": "Non-CMV herpes viruses organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 51,
+    "Variable": "herpesvend",
+    "Description": "Non-CMV herpes viruses organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 52,
+    "Variable": "vorg301end",
+    "Description": "HSV, organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 52,
+    "Variable": "vorg301end",
+    "Description": "HSV, organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 53,
+    "Variable": "vorg302end",
+    "Description": "Varicella, organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 53,
+    "Variable": "vorg302end",
+    "Description": "Varicella, organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 54,
+    "Variable": "vorg317end",
+    "Description": "HHV-6, organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 54,
+    "Variable": "vorg317end",
+    "Description": "HHV-6, organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 55,
+    "Variable": "vorg318end",
+    "Description": "EBV, organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 55,
+    "Variable": "vorg318end",
+    "Description": "EBV, organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 56,
+    "Variable": "oth_herpesvend_gi",
+    "Description": "NCHV sites, GI",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 56,
+    "Variable": "oth_herpesvend_gi",
+    "Description": "NCHV sites, GI",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 56,
+    "Variable": "oth_herpesvend_gi",
+    "Description": "NCHV sites, GI",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 57,
+    "Variable": "oth_herpesvend_lung",
+    "Description": "NCHV sites, Lung",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 57,
+    "Variable": "oth_herpesvend_lung",
+    "Description": "NCHV sites, Lung",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 57,
+    "Variable": "oth_herpesvend_lung",
+    "Description": "NCHV sites, Lung",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 58,
+    "Variable": "oth_herpesvend_liver",
+    "Description": "NCHV sites, Liver",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 58,
+    "Variable": "oth_herpesvend_liver",
+    "Description": "NCHV sites, Liver",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 58,
+    "Variable": "oth_herpesvend_liver",
+    "Description": "NCHV sites, Liver",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 59,
+    "Variable": "oth_herpesvend_sinus",
+    "Description": "NCHV sites, Sinu/Upper Respiratory",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 59,
+    "Variable": "oth_herpesvend_sinus",
+    "Description": "NCHV sites, Sinu/Upper Respiratory",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 59,
+    "Variable": "oth_herpesvend_sinus",
+    "Description": "NCHV sites, Sinu/Upper Respiratory",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 60,
+    "Variable": "oth_herpesvend_cns",
+    "Description": "NCHV sites, CNS",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 60,
+    "Variable": "oth_herpesvend_cns",
+    "Description": "NCHV sites, CNS",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 60,
+    "Variable": "oth_herpesvend_cns",
+    "Description": "NCHV sites, CNS",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 61,
+    "Variable": "oth_herpesvend_lowgu",
+    "Description": "NCHV sites, Lower GU",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 61,
+    "Variable": "oth_herpesvend_lowgu",
+    "Description": "NCHV sites, Lower GU",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 61,
+    "Variable": "oth_herpesvend_lowgu",
+    "Description": "NCHV sites, Lower GU",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 62,
+    "Variable": "oth_herpesvend_uppgu",
+    "Description": "NCHV sites, Upper GU",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 62,
+    "Variable": "oth_herpesvend_uppgu",
+    "Description": "NCHV sites, Upper GU",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 62,
+    "Variable": "oth_herpesvend_uppgu",
+    "Description": "NCHV sites, Upper GU",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 63,
+    "Variable": "oth_herpesvend_skin",
+    "Description": "NCHV sites, Skin",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 63,
+    "Variable": "oth_herpesvend_skin",
+    "Description": "NCHV sites, Skin",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 63,
+    "Variable": "oth_herpesvend_skin",
+    "Description": "NCHV sites, Skin",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 64,
+    "Variable": "oth_herpesvend_oth",
+    "Description": "NCHV sites, Other sites",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 64,
+    "Variable": "oth_herpesvend_oth",
+    "Description": "NCHV sites, Other sites",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 64,
+    "Variable": "oth_herpesvend_oth",
+    "Description": "NCHV sites, Other sites",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "N/A,Missing"
+  },
+  {
+    "#": 65,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 65,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "Alive"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Primary disease"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Graft failure"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "GVHD"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "Infection"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "IPn"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "ARDS"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "Organ failure"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": "Organ toxicity"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "9",
+    "Label": "Secondary malignancy"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "10",
+    "Label": "Hemorrhage"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "11",
+    "Label": "Accident/suicide"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "12",
+    "Label": "Vascular"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "13",
+    "Label": "Other"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "98",
+    "Label": "Unknown"
+  },
+  {
+    "#": 66,
+    "Variable": "deathgp",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 67,
+    "Variable": "deathgp2",
+    "Description": "Secondary cause of death",
+    "Type": "Categorical",
+    "Value": ".",
+    "Label": "Alive or missing"
+  },
+  {
+    "#": 67,
+    "Variable": "deathgp2",
+    "Description": "Secondary cause of death",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Infection"
+  },
+  {
+    "#": 67,
+    "Variable": "deathgp2",
+    "Description": "Secondary cause of death",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Non infection"
+  },
+  {
+    "#": 68,
+    "Variable": "intxsurv",
+    "Description": "Time from HCT to death/last follow-up date",
+    "Type": "Continuous",
+    "Value": "2",
+    "Label": "Non infection"
+  },
+  {
+    "#": 69,
+    "Variable": "case5",
+    "Description": "Group for impact of CRV",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "CRV Infection, HaploCy"
+  },
+  {
+    "#": 69,
+    "Variable": "case5",
+    "Description": "Group for impact of CRV",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "CRV Infection, SibCy"
+  },
+  {
+    "#": 69,
+    "Variable": "case5",
+    "Description": "Group for impact of CRV",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "CRV Infection, SibCNI"
+  },
+  {
+    "#": 69,
+    "Variable": "case5",
+    "Description": "Group for impact of CRV",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "No CRV, HaploCy"
+  },
+  {
+    "#": 69,
+    "Variable": "case5",
+    "Description": "Group for impact of CRV",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "No CRV, SibCy"
+  },
+  {
+    "#": 69,
+    "Variable": "case5",
+    "Description": "Group for impact of CRV",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "No CRV, SibCNI"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "Unknown"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Normal"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Favorable"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "Intermediate"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "Poor"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "Other"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "10",
+    "Label": "Not tested/Missing"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "11",
+    "Label": "MDS N/A"
+  },
+  {
+    "#": 70,
+    "Variable": "cytogene",
+    "Description": "Cyto genetics for AML/ALL",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 71,
+    "Variable": "ipssrpr",
+    "Description": "IPSS-R prior to transplant (MDS only)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Very low"
+  },
+  {
+    "#": 71,
+    "Variable": "ipssrpr",
+    "Description": "IPSS-R prior to transplant (MDS only)",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Low"
+  },
+  {
+    "#": 71,
+    "Variable": "ipssrpr",
+    "Description": "IPSS-R prior to transplant (MDS only)",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "Intermediate"
+  },
+  {
+    "#": 71,
+    "Variable": "ipssrpr",
+    "Description": "IPSS-R prior to transplant (MDS only)",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "High"
+  },
+  {
+    "#": 71,
+    "Variable": "ipssrpr",
+    "Description": "IPSS-R prior to transplant (MDS only)",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "Very high"
+  },
+  {
+    "#": 71,
+    "Variable": "ipssrpr",
+    "Description": "IPSS-R prior to transplant (MDS only)",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 71,
+    "Variable": "ipssrpr",
+    "Description": "IPSS-R prior to transplant (MDS only)",
+    "Type": "Categorical",
+    "Value": "100",
+    "Label": "AML/ALL N/A"
+  },
+  {
+    "#": 72,
+    "Variable": "commuend",
+    "Description": "Non-CMV Community respiratory viruses organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 72,
+    "Variable": "commuend",
+    "Description": "Non-CMV Community respiratory viruses organ involvement (+/- viremia)",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 73,
+    "Variable": "intxcommu",
+    "Description": "Time from HCT to CRVI, months",
+    "Type": "Continuous",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 74,
+    "Variable": "commugp",
+    "Description": "Non-CMV CRV",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 74,
+    "Variable": "commugp",
+    "Description": "Non-CMV CRV",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 75,
+    "Variable": "vorg321end",
+    "Description": "Rhinovirus",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 75,
+    "Variable": "vorg321end",
+    "Description": "Rhinovirus",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 76,
+    "Variable": "vorg316end",
+    "Description": "Parainfluenza",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 76,
+    "Variable": "vorg316end",
+    "Description": "Parainfluenza",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 77,
+    "Variable": "vorg314end",
+    "Description": "RSV",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 77,
+    "Variable": "vorg314end",
+    "Description": "RSV",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 78,
+    "Variable": "vorg310endgp",
+    "Description": "Influenza",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 78,
+    "Variable": "vorg310endgp",
+    "Description": "Influenza",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 79,
+    "Variable": "vorg304end",
+    "Description": "Adenovirus",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 79,
+    "Variable": "vorg304end",
+    "Description": "Adenovirus",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 80,
+    "Variable": "vorg305endgp",
+    "Description": "Enterovirus",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 80,
+    "Variable": "vorg305endgp",
+    "Description": "Enterovirus",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 81,
+    "Variable": "vorg343end",
+    "Description": "Human Metapneumovirus",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 81,
+    "Variable": "vorg343end",
+    "Description": "Human Metapneumovirus",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 82,
+    "Variable": "vorg344end",
+    "Description": "Coronavirus",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 82,
+    "Variable": "vorg344end",
+    "Description": "Coronavirus",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  }
+]

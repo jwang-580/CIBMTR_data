@@ -1,0 +1,1726 @@
+[
+  {
+    "...1": 1,
+    "Variable": "age",
+    "Description": "Age at HCT, median (range), yrs",
+    "Type": "Continuous"
+  },
+  {
+    "...1": 2,
+    "Variable": "agedx",
+    "Description": "Age at diagnosis, median (range), yrs",
+    "Type": "Continuous"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "< 10"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "10-19"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "20-29"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "30-39"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "40-49"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "50-59"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "60-69"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "70-79"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": ">= 80"
+  },
+  {
+    "...1": 3,
+    "Variable": "agedxgp",
+    "Description": "Age at diagnosis, yrs",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "NA"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "< 10"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "10-19"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "20-29"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "30-39"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "40-49"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "50-59"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "60-69"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "70-79"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": ">= 80"
+  },
+  {
+    "...1": 4,
+    "Variable": "agegp",
+    "Description": "Age at HCT, yrs",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "NA"
+  },
+  {
+    "...1": 5,
+    "Variable": "atgcampathgp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "ATG + CAMPATH"
+  },
+  {
+    "...1": 5,
+    "Variable": "atgcampathgp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "ATG alone"
+  },
+  {
+    "...1": 5,
+    "Variable": "atgcampathgp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "CAMPATH alone"
+  },
+  {
+    "...1": 5,
+    "Variable": "atgcampathgp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "No ATG or CAMPATH"
+  },
+  {
+    "...1": 6,
+    "Variable": "blbldx",
+    "Description": "Blast in peripheral blood at diagnosis, %",
+    "Type": "Continuous",
+    "Value": 4,
+    "Label": "No ATG or CAMPATH"
+  },
+  {
+    "...1": 7,
+    "Variable": "blbldxgp",
+    "Description": "Blast in peripheral blood at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<= 1%"
+  },
+  {
+    "...1": 7,
+    "Variable": "blbldxgp",
+    "Description": "Blast in peripheral blood at diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "> 1%"
+  },
+  {
+    "...1": 7,
+    "Variable": "blbldxgp",
+    "Description": "Blast in peripheral blood at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 8,
+    "Variable": "blblpr",
+    "Description": "Blast in peripheral blood prior to HCT, %",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 9,
+    "Variable": "blblprgp",
+    "Description": "Blast in peripheral blood prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<= 1%"
+  },
+  {
+    "...1": 9,
+    "Variable": "blblprgp",
+    "Description": "Blast in peripheral blood prior to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "> 1%"
+  },
+  {
+    "...1": 9,
+    "Variable": "blblprgp",
+    "Description": "Blast in peripheral blood prior to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 11,
+    "Label": "MAC - TBI/Cy"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 12,
+    "Label": "MAC - TBI/Cy/Other"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 13,
+    "Label": "MAC - TBI/Other"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 14,
+    "Label": "MAC - Bu/Cy"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 15,
+    "Label": "MAC - Bu/Cy/Other"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 16,
+    "Label": "MAC - Bu/Flud"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 17,
+    "Label": "MAC - Bu/Flud/Other"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 18,
+    "Label": "MAC - Mel/Flud/Other"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 19,
+    "Label": "MAC - Thio-based"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 21,
+    "Label": "RIC - TBI/Other"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 22,
+    "Label": "RIC - Bu/Flud/Other"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 23,
+    "Label": "RIC - Mel/Flud/Other"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 24,
+    "Label": "RIC - Flud/Treo"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 31,
+    "Label": "NMA - TBI/Flud/Cy"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 32,
+    "Label": "NMA - TBI/Flud"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 33,
+    "Label": "NMA - Flud/Cy"
+  },
+  {
+    "...1": 10,
+    "Variable": "condcat",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 90,
+    "Label": "Other"
+  },
+  {
+    "...1": 11,
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "MAC"
+  },
+  {
+    "...1": 11,
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "RIC"
+  },
+  {
+    "...1": 11,
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "NMA"
+  },
+  {
+    "...1": 11,
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "TBD"
+  },
+  {
+    "...1": 11,
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 12,
+    "Variable": "cytomfs",
+    "Description": "Cytogenetic score for MF",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Favorable (normal)"
+  },
+  {
+    "...1": 12,
+    "Variable": "cytomfs",
+    "Description": "Cytogenetic score for MF",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Favorable (other)"
+  },
+  {
+    "...1": 12,
+    "Variable": "cytomfs",
+    "Description": "Cytogenetic score for MF",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Adverse"
+  },
+  {
+    "...1": 12,
+    "Variable": "cytomfs",
+    "Description": "Cytogenetic score for MF",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "TBD (needs rev.)"
+  },
+  {
+    "...1": 12,
+    "Variable": "cytomfs",
+    "Description": "Cytogenetic score for MF",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Not tested"
+  },
+  {
+    "...1": 12,
+    "Variable": "cytomfs",
+    "Description": "Cytogenetic score for MF",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 13,
+    "Variable": "dccn",
+    "Description": "Dummy CCN",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 14,
+    "Variable": "dcrid",
+    "Description": "Dummy CRID",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 15,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 15,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 16,
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 16,
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 17,
+    "Variable": "dipsspr",
+    "Description": "DIPSS prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Low"
+  },
+  {
+    "...1": 17,
+    "Variable": "dipsspr",
+    "Description": "DIPSS prior to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Intermediate-1"
+  },
+  {
+    "...1": 17,
+    "Variable": "dipsspr",
+    "Description": "DIPSS prior to HCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Intermediate-2"
+  },
+  {
+    "...1": 17,
+    "Variable": "dipsspr",
+    "Description": "DIPSS prior to HCT",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "High"
+  },
+  {
+    "...1": 17,
+    "Variable": "dipsspr",
+    "Description": "DIPSS prior to HCT",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "NA"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Autologous"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "HLA-identical sibling"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Twin"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Other related"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Well-matched unrelated"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Partially-matched unrelated"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "Mis-matched unrelated"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "Multi-donor"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Unrelated (matching TBD)"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Cord blood"
+  },
+  {
+    "...1": 18,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 19,
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV status",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "+/+"
+  },
+  {
+    "...1": 19,
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV status",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "+/-"
+  },
+  {
+    "...1": 19,
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV status",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "-/+"
+  },
+  {
+    "...1": 19,
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV status",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "-/-"
+  },
+  {
+    "...1": 19,
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV status",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Cord blood"
+  },
+  {
+    "...1": 19,
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV status",
+    "Type": "Categorical",
+    "Value": 97,
+    "Label": "Not available before 2007"
+  },
+  {
+    "...1": 19,
+    "Variable": "drcmvpr",
+    "Description": "Donor-recipient CMV status",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 20,
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "M-M"
+  },
+  {
+    "...1": 20,
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "M-F"
+  },
+  {
+    "...1": 20,
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "F-M"
+  },
+  {
+    "...1": 20,
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "F-F"
+  },
+  {
+    "...1": 20,
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "NA"
+  },
+  {
+    "...1": 20,
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Cord blood"
+  },
+  {
+    "...1": 20,
+    "Variable": "drsex",
+    "Description": "Donor-recipient sex match",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 21,
+    "Variable": "graftypecat",
+    "Description": "Graft source",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Bone marrow"
+  },
+  {
+    "...1": 21,
+    "Variable": "graftypecat",
+    "Description": "Graft source",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Peripheral blood"
+  },
+  {
+    "...1": 21,
+    "Variable": "graftypecat",
+    "Description": "Graft source",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Cord blood"
+  },
+  {
+    "...1": 21,
+    "Variable": "graftypecat",
+    "Description": "Graft source",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No GVHD prophylaxis"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Ex-vivo T-cell depletion"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "CD34 selection"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Post-CY +- other(s)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3.1,
+    "Label": "Post-CY + other(s)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3.2,
+    "Label": "Post-CY alone"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "TAC + MMF +- other(s) (except post-CY)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "TAC + MTX +- other(s) (except MMF, post-CY)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "TAC + other(s) (except MMF, MTX, post-CY)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "TAC alone"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "CSA + MMF +- other(s) (except post-CY)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "CSA + MTX +- other(s) (except MMF, post-CY)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 10,
+    "Label": "CSA + other(s) (except MMF, MTX, post-CY)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 11,
+    "Label": "CSA alone"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 20,
+    "Label": "Other(s)"
+  },
+  {
+    "...1": 22,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 23,
+    "Variable": "hbdx",
+    "Description": "Hemoglobin at diagnosis, g/L",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 24,
+    "Variable": "hbdxgp",
+    "Description": "Hemoglobin at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "< 100 g/L"
+  },
+  {
+    "...1": 24,
+    "Variable": "hbdxgp",
+    "Description": "Hemoglobin at diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": ">= 100 g/L"
+  },
+  {
+    "...1": 24,
+    "Variable": "hbdxgp",
+    "Description": "Hemoglobin at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 25,
+    "Variable": "hbpr",
+    "Description": "Hemoglobin prior to HCT, g/L",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 26,
+    "Variable": "hbprgp",
+    "Description": "Hemoglobin prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "< 100 g/L"
+  },
+  {
+    "...1": 26,
+    "Variable": "hbprgp",
+    "Description": "Hemoglobin prior to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": ">= 100 g/L"
+  },
+  {
+    "...1": 26,
+    "Variable": "hbprgp",
+    "Description": "Hemoglobin prior to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 27,
+    "Variable": "hctcigp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "0"
+  },
+  {
+    "...1": 27,
+    "Variable": "hctcigp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "1"
+  },
+  {
+    "...1": 27,
+    "Variable": "hctcigp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2"
+  },
+  {
+    "...1": 27,
+    "Variable": "hctcigp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "3+"
+  },
+  {
+    "...1": 27,
+    "Variable": "hctcigp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 96,
+    "Label": "TBD, review needed for history of malignancies"
+  },
+  {
+    "...1": 27,
+    "Variable": "hctcigp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 97,
+    "Label": "TBD, inconsistencies between parent and sub-questions"
+  },
+  {
+    "...1": 27,
+    "Variable": "hctcigp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 98,
+    "Label": "NA, f2400 (pre-TED) not completed"
+  },
+  {
+    "...1": 27,
+    "Variable": "hctcigp",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 28,
+    "Variable": "intdxtx",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 29,
+    "Variable": "intdxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "0-3 months"
+  },
+  {
+    "...1": 29,
+    "Variable": "intdxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "3-6 months"
+  },
+  {
+    "...1": 29,
+    "Variable": "intdxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": ">= 6 months"
+  },
+  {
+    "...1": 29,
+    "Variable": "intdxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 30,
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 31,
+    "Variable": "intxsurv",
+    "Description": "Time from HCT to death/last follow-up date",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 32,
+    "Variable": "jak2mut",
+    "Description": "JAK2 mutation",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 32,
+    "Variable": "jak2mut",
+    "Description": "JAK2 mutation",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 32,
+    "Variable": "jak2mut",
+    "Description": "JAK2 mutation",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "No tested"
+  },
+  {
+    "...1": 32,
+    "Variable": "jak2mut",
+    "Description": "JAK2 mutation",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Not available before 2007"
+  },
+  {
+    "...1": 33,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "90-100"
+  },
+  {
+    "...1": 33,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score prior to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "< 90"
+  },
+  {
+    "...1": 33,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score prior to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 34,
+    "Variable": "ntreatpra",
+    "Description": "Number of lines of pre-treatments",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "0"
+  },
+  {
+    "...1": 34,
+    "Variable": "ntreatpra",
+    "Description": "Number of lines of pre-treatments",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "1"
+  },
+  {
+    "...1": 34,
+    "Variable": "ntreatpra",
+    "Description": "Number of lines of pre-treatments",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2"
+  },
+  {
+    "...1": 34,
+    "Variable": "ntreatpra",
+    "Description": "Number of lines of pre-treatments",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "3+"
+  },
+  {
+    "...1": 34,
+    "Variable": "ntreatpra",
+    "Description": "Number of lines of pre-treatments",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 35,
+    "Variable": "platedx",
+    "Description": "Platelet count at diagnosis, 10/L",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 36,
+    "Variable": "platedxgp",
+    "Description": "Platelet count at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": ">= 100 x 10/L"
+  },
+  {
+    "...1": 36,
+    "Variable": "platedxgp",
+    "Description": "Platelet count at diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "50-100 x 10/L"
+  },
+  {
+    "...1": 36,
+    "Variable": "platedxgp",
+    "Description": "Platelet count at diagnosis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "< 50 x 10/L"
+  },
+  {
+    "...1": 36,
+    "Variable": "platedxgp",
+    "Description": "Platelet count at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 37,
+    "Variable": "platepr",
+    "Description": "Platelet count prior to HCT, 10/L",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 38,
+    "Variable": "plateprgp",
+    "Description": "Platelet count prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": ">= 100 x 10/L"
+  },
+  {
+    "...1": 38,
+    "Variable": "plateprgp",
+    "Description": "Platelet count prior to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "50-100 x 10/L"
+  },
+  {
+    "...1": 38,
+    "Variable": "plateprgp",
+    "Description": "Platelet count prior to HCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "< 50 x 10/L"
+  },
+  {
+    "...1": 38,
+    "Variable": "plateprgp",
+    "Description": "Platelet count prior to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 39,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 39,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 40,
+    "Variable": "ruxopr",
+    "Description": "Received Jakafi as prior therapy",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 40,
+    "Variable": "ruxopr",
+    "Description": "Received Jakafi as prior therapy",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 40,
+    "Variable": "ruxopr",
+    "Description": "Received Jakafi as prior therapy",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Unknown"
+  },
+  {
+    "...1": 40,
+    "Variable": "ruxopr",
+    "Description": "Received Jakafi as prior therapy",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 41,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "...1": 41,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "...1": 41,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Not answered"
+  },
+  {
+    "...1": 41,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 42,
+    "Variable": "splnmg",
+    "Description": "Spleen status",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Normal"
+  },
+  {
+    "...1": 42,
+    "Variable": "splnmg",
+    "Description": "Spleen status",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Splenomegaly"
+  },
+  {
+    "...1": 42,
+    "Variable": "splnmg",
+    "Description": "Spleen status",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Splenectomy"
+  },
+  {
+    "...1": 42,
+    "Variable": "splnmg",
+    "Description": "Spleen status",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Unknown"
+  },
+  {
+    "...1": 42,
+    "Variable": "splnmg",
+    "Description": "Spleen status",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 43,
+    "Variable": "subdisdx",
+    "Description": "Disease at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Myelofibrosis"
+  },
+  {
+    "...1": 43,
+    "Variable": "subdisdx",
+    "Description": "Disease at diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Polycythemia vesa"
+  },
+  {
+    "...1": 43,
+    "Variable": "subdisdx",
+    "Description": "Disease at diagnosis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Essential thrombocythemia"
+  },
+  {
+    "...1": 44,
+    "Variable": "systemdx",
+    "Description": "System symptoms at diagnosis",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 44,
+    "Variable": "systemdx",
+    "Description": "System symptoms at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 44,
+    "Variable": "systemdx",
+    "Description": "System symptoms at diagnosis",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Unknown"
+  },
+  {
+    "...1": 44,
+    "Variable": "systemdx",
+    "Description": "System symptoms at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 45,
+    "Variable": "systempr",
+    "Description": "System symptoms prior to HCT",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 45,
+    "Variable": "systempr",
+    "Description": "System symptoms prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 45,
+    "Variable": "systempr",
+    "Description": "System symptoms prior to HCT",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Unknown"
+  },
+  {
+    "...1": 45,
+    "Variable": "systempr",
+    "Description": "System symptoms prior to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 46,
+    "Variable": "tbi",
+    "Description": "Use of TBI",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 46,
+    "Variable": "tbi",
+    "Description": "Use of TBI",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 46,
+    "Variable": "tbi",
+    "Description": "Use of TBI",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Unknown"
+  },
+  {
+    "...1": 46,
+    "Variable": "tbi",
+    "Description": "Use of TBI",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 47,
+    "Variable": "treatpr",
+    "Description": "Prior therapy",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 47,
+    "Variable": "treatpr",
+    "Description": "Prior therapy",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 47,
+    "Variable": "treatpr",
+    "Description": "Prior therapy",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Unknown"
+  },
+  {
+    "...1": 47,
+    "Variable": "treatpr",
+    "Description": "Prior therapy",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 48,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "...1": 48,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 49,
+    "Variable": "wbcdx",
+    "Description": "WBC at diagnosis, 10/L",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "...1": 50,
+    "Variable": "wbcdxgp",
+    "Description": "WBC at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<= 25 x 10/L"
+  },
+  {
+    "...1": 50,
+    "Variable": "wbcdxgp",
+    "Description": "WBC at diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "> 25 x 10/L"
+  },
+  {
+    "...1": 50,
+    "Variable": "wbcdxgp",
+    "Description": "WBC at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 51,
+    "Variable": "wbcpr",
+    "Description": "WBC prior to HCT, 10/L",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 52,
+    "Variable": "wbcprgp",
+    "Description": "WBC prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<= 25 x 10/L"
+  },
+  {
+    "...1": 52,
+    "Variable": "wbcprgp",
+    "Description": "WBC prior to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "> 25 x 10/L"
+  },
+  {
+    "...1": 52,
+    "Variable": "wbcprgp",
+    "Description": "WBC prior to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "2000-2001"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2002-2003"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "2004-2005"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "2006-2007"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "2008-2009"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "2010-2011"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "2012-2013"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "2014-2015"
+  },
+  {
+    "...1": 53,
+    "Variable": "yeartxgp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "2016"
+  }
+]

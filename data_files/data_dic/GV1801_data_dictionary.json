@@ -1,0 +1,890 @@
+[
+  {
+    "Variable": "dummycrid",
+    "Description": "Patient ID",
+    "Type": "Continuous"
+  },
+  {
+    "Variable": "dummycrid",
+    "Description": "Patient ID",
+    "Type": "Continuous"
+  },
+  {
+    "Variable": "dummyccn",
+    "Description": "Center ID",
+    "Type": "Continuous"
+  },
+  {
+    "Variable": "age",
+    "Description": "Age at transplant",
+    "Type": "Continuous"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<10"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "45216"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "18-29"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at transplant",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "30-39"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at transplant",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "40-49"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at transplant",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "50-59"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Age at transplant",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": ">=60"
+  },
+  {
+    "Variable": "sex",
+    "Description": "Recipient sex",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "Variable": "sex",
+    "Description": "Recipient sex",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "Variable": "race",
+    "Description": "Patient race",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Caucasian"
+  },
+  {
+    "Variable": "race",
+    "Description": "Patient race",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Non-Caucasian"
+  },
+  {
+    "Variable": "race",
+    "Description": "Patient race",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Multi-racial"
+  },
+  {
+    "Variable": "bmipctgp",
+    "Description": "BMI/weight for age percentile (for age < 18)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<5th percentile"
+  },
+  {
+    "Variable": "bmipctgp",
+    "Description": "BMI/weight for age percentile (for age < 18)",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "5-95th percentile"
+  },
+  {
+    "Variable": "bmipctgp",
+    "Description": "BMI/weight for age percentile (for age < 18)",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": ">95th percentile"
+  },
+  {
+    "Variable": "kps",
+    "Description": "Lanksy score",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "<90"
+  },
+  {
+    "Variable": "kps",
+    "Description": "Lanksy score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": ">=90"
+  },
+  {
+    "Variable": "indxtx",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": ">=90"
+  },
+  {
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<6 months"
+  },
+  {
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "6 - 12 months"
+  },
+  {
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": ">12 months"
+  },
+  {
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "distat",
+    "Description": "Disease status prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Early"
+  },
+  {
+    "Variable": "distat",
+    "Description": "(include with peds analysis only)",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Intermediate"
+  },
+  {
+    "Variable": "distat",
+    "Description": "(include with peds analysis only)",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Advanced"
+  },
+  {
+    "Variable": "distat",
+    "Description": "(include with peds analysis only)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "AML"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "ALL"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "CML"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "MDS"
+  },
+  {
+    "Variable": "disease",
+    "Description": "Disease",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "NHL"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "HLA-identical sibling"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Well-matched unrelated (8/8)"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Partially-matched unrelated (7/8)"
+  },
+  {
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Cord blood"
+  },
+  {
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Bone marrow"
+  },
+  {
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Peripheral blood"
+  },
+  {
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Cord blood"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "Donor/recipient CMV match",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "+/+"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "Donor/recipient CMV match",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "+/+"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "Donor/recipient CMV match",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "+/-"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "Donor/recipient CMV match",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "-/+"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "Donor/recipient CMV match",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "-/-"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "M-M"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "M-F"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "F-M"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "F-F"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 9.1,
+    "Label": "CB - recipient M"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 9.2,
+    "Label": "CB - recipient F"
+  },
+  {
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Ex-vivo T-cell depletion/CD34 selection"
+  },
+  {
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "CNI + MMF +/- others"
+  },
+  {
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "CNI + MTX +/- others"
+  },
+  {
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "CNI +/- others (excluding post-Cy, MMF, MTX)"
+  },
+  {
+    "Variable": "atgcamp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "atgcamp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "MAC"
+  },
+  {
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "RIC/NMA"
+  },
+  {
+    "Variable": "tbigp",
+    "Description": "TBI usage",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "tbigp",
+    "Description": "TBI usage",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "yeartx",
+    "Description": "Year of HCT",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "yeartx",
+    "Description": "Year of HCT",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgvhd2y",
+    "Description": "CGVHD by 2 years post-HCT",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgvhd2y",
+    "Description": "CGVHD by 2 years post-HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "intxcgvhd2y",
+    "Description": "Time between transplant and chronic GVHD (up to 2 yrs), months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgradehi",
+    "Description": "Maximum grade of cGVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "None"
+  },
+  {
+    "Variable": "cgradehi",
+    "Description": "Maximum grade of cGVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Limited"
+  },
+  {
+    "Variable": "cgradehi",
+    "Description": "Maximum grade of cGVHD",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Extensive"
+  },
+  {
+    "Variable": "cplategp",
+    "Description": "Platelet count at cGVHD diagnosis, x10^9/L",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": ">=100"
+  },
+  {
+    "Variable": "cplategp",
+    "Description": "Platelet count at cGVHD diagnosis, x10^9/L",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "<100"
+  },
+  {
+    "Variable": "cplategp",
+    "Description": "Platelet count at cGVHD diagnosis, x10^9/L",
+    "Type": "Categorical",
+    "Value": 98,
+    "Label": "No cGVHD"
+  },
+  {
+    "Variable": "cplategp",
+    "Description": "Platelet count at cGVHD diagnosis, x10^9/L",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgvsevgp",
+    "Description": "Severity of cGVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Mild"
+  },
+  {
+    "Variable": "cgvsevgp",
+    "Description": "Severity of cGVHD",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Moderate"
+  },
+  {
+    "Variable": "cgvsevgp",
+    "Description": "Severity of cGVHD",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Severe"
+  },
+  {
+    "Variable": "cgvsevgp",
+    "Description": "Severity of cGVHD",
+    "Type": "Categorical",
+    "Value": 98,
+    "Label": "No cGVHD"
+  },
+  {
+    "Variable": "cgproggp",
+    "Description": "Onset of cGVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Progressive"
+  },
+  {
+    "Variable": "cgproggp",
+    "Description": "Onset of cGVHD",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Interrupted"
+  },
+  {
+    "Variable": "cgproggp",
+    "Description": "Onset of cGVHD",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "De novo"
+  },
+  {
+    "Variable": "cgproggp",
+    "Description": "Onset of cGVHD",
+    "Type": "Categorical",
+    "Value": 98,
+    "Label": "No cGVHD"
+  },
+  {
+    "Variable": "cgproggp",
+    "Description": "Onset of cGVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cggp",
+    "Description": "CGVHD organ involvement",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Mucocutaneous"
+  },
+  {
+    "Variable": "cggp",
+    "Description": "CGVHD organ involvement",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Visceral"
+  },
+  {
+    "Variable": "cggp",
+    "Description": "CGVHD organ involvement",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Both"
+  },
+  {
+    "Variable": "cggp",
+    "Description": "CGVHD organ involvement",
+    "Type": "Categorical",
+    "Value": 98,
+    "Label": "No cGVHD"
+  },
+  {
+    "Variable": "cgvhdtrtgp",
+    "Description": "CGVHD treatment after cGVHD diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgvhdtrtgp",
+    "Description": "CGVHD treatment after cGVHD diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgvhdtrtgp",
+    "Description": "CGVHD treatment after cGVHD diagnosis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Relapsed/died before end of treatment"
+  },
+  {
+    "Variable": "cgvhdtrtgp",
+    "Description": "CGVHD treatment after cGVHD diagnosis",
+    "Type": "Categorical",
+    "Value": 98,
+    "Label": "No cGVHD"
+  },
+  {
+    "Variable": "cgvhdtrtgp",
+    "Description": "CGVHD treatment after cGVHD diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "incgvhdtrt",
+    "Description": "Duration of cGVHD treatment after cGVHD diagnosis",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "incgvhdtrt",
+    "Description": "Duration of cGVHD treatment after cGVHD diagnosis",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "leflag",
+    "Description": "Late effect after HCT",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "leflag",
+    "Description": "Late effect after HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "leflag",
+    "Description": "Late effect after HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "malig",
+    "Description": "Subsequent neoplasm",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "malig",
+    "Description": "Subsequent neoplasm",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "malig",
+    "Description": "Subsequent neoplasm",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "nonmalig",
+    "Description": "Non-malignant late effect",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "nonmalig",
+    "Description": "Non-malignant late effect",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "nonmalig",
+    "Description": "Non-malignant late effect",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "dwocgvhd",
+    "Description": "Death without chronic GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "dwocgvhd",
+    "Description": "Death without chronic GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "dwole",
+    "Description": "Death without late effect",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "dwole",
+    "Description": "Death without late effect",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "dwole",
+    "Description": "Death without late effect",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "dwomalig",
+    "Description": "Death without subsequent neoplasm",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "dwomalig",
+    "Description": "Death without subsequent neoplasm",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "dwomalig",
+    "Description": "Death without subsequent neoplasm",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "dwononmalig",
+    "Description": "Death without non-malignant late effect",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "dwononmalig",
+    "Description": "Death without non-malignant late effect",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "dwononmalig",
+    "Description": "Death without non-malignant late effect",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxsurv",
+    "Description": "Time from HCT to death/last follow-up date",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxle",
+    "Description": "Time between HCT and first late effect 2 years post-HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxmalig",
+    "Description": "Time between transplant and first occurrence of subsequent neoplasm 2 years post-HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "intxnonmalig",
+    "Description": "Time between transplant and first occurrence of non-malignant late effect 2 years post-HCT",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  }
+]

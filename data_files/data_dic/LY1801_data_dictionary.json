@@ -1,0 +1,436 @@
+[
+  {
+    "#": 1,
+    "Variable": "PSEUDOCRID",
+    "Description": "De-identified patient ID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 2,
+    "Variable": "PSEUDOCENTERID",
+    "Description": "De-identified center ID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 3,
+    "Variable": "age",
+    "Description": "Recipient age (years)",
+    "Type": "Continuous"
+  },
+  {
+    "#": 4,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "18-29"
+  },
+  {
+    "#": 4,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "30-39"
+  },
+  {
+    "#": 4,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "40-49"
+  },
+  {
+    "#": 4,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "50-59"
+  },
+  {
+    "#": 4,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "60-69"
+  },
+  {
+    "#": 4,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": ">=70"
+  },
+  {
+    "#": 5,
+    "Variable": "sex",
+    "Description": "Reciepient gender",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "#": 5,
+    "Variable": "sex",
+    "Description": "Reciepient gender",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "#": 6,
+    "Variable": "kps",
+    "Description": "Recipient Karnofsky score",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": ">=90"
+  },
+  {
+    "#": 6,
+    "Variable": "kps",
+    "Description": "Recipient Karnofsky score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<90"
+  },
+  {
+    "#": 6,
+    "Variable": "kps",
+    "Description": "Recipient Karnofsky score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Not reported"
+  },
+  {
+    "#": 7,
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Caucasian"
+  },
+  {
+    "#": 7,
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "African American"
+  },
+  {
+    "#": 7,
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Other"
+  },
+  {
+    "#": 7,
+    "Variable": "racegp",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 8,
+    "Variable": "distat",
+    "Description": "Remission status at HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "CR"
+  },
+  {
+    "#": 8,
+    "Variable": "distat",
+    "Description": "Remission status at HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "PR"
+  },
+  {
+    "#": 9,
+    "Variable": "storin",
+    "Description": "Stage at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Stage I-II"
+  },
+  {
+    "#": 9,
+    "Variable": "storin",
+    "Description": "Stage at diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Stage III-IV"
+  },
+  {
+    "#": 9,
+    "Variable": "storin",
+    "Description": "Stage at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 10,
+    "Variable": "ldhlim",
+    "Description": "LHD at diagnosis",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Normal"
+  },
+  {
+    "#": 10,
+    "Variable": "ldhlim",
+    "Description": "LHD at diagnosis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "High"
+  },
+  {
+    "#": 10,
+    "Variable": "ldhlim",
+    "Description": "LHD at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 11,
+    "Variable": "marrowdx",
+    "Description": "Bone marrow involvement at diagnosis",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 11,
+    "Variable": "marrowdx",
+    "Description": "Bone marrow involvement at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 11,
+    "Variable": "marrowdx",
+    "Description": "Bone marrow involvement at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 12,
+    "Variable": "exnoddx",
+    "Description": "Extranodal involvement at diagnosis",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 12,
+    "Variable": "exnoddx",
+    "Description": "Extranodal involvement at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 12,
+    "Variable": "exnoddx",
+    "Description": "Extranodal involvement at diagnosis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Not reported"
+  },
+  {
+    "#": 13,
+    "Variable": "rituximab",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Non-Rituximab-BEAM"
+  },
+  {
+    "#": 13,
+    "Variable": "rituximab",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Rituximab-BEAM"
+  },
+  {
+    "#": 14,
+    "Variable": "resp1line",
+    "Description": "Primary refractory after first line of therapy",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 14,
+    "Variable": "resp1line",
+    "Description": "Primary refractory after first line of therapy",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 14,
+    "Variable": "resp1line",
+    "Description": "Primary refractory after first line of therapy",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 15,
+    "Variable": "failure",
+    "Description": "Early rituximab failure",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 15,
+    "Variable": "failure",
+    "Description": "Early rituximab failure",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 15,
+    "Variable": "failure",
+    "Description": "Early rituximab failure",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 16,
+    "Variable": "chemogpnew",
+    "Description": "Number of prior lines of therapy",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 17,
+    "Variable": "yeargp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "2003-2007"
+  },
+  {
+    "#": 17,
+    "Variable": "yeargp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2008-2012"
+  },
+  {
+    "#": 17,
+    "Variable": "yeargp",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "2013-2017"
+  },
+  {
+    "#": 18,
+    "Variable": "intdxdt",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Continuous",
+    "Value": 3,
+    "Label": "2013-2017"
+  },
+  {
+    "#": 19,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 19,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 20,
+    "Variable": "intxsurv",
+    "Description": "Interval between HCT and death or last follow up",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 21,
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 21,
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 22,
+    "Variable": "progrel",
+    "Description": "Relapse/progression",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 22,
+    "Variable": "progrel",
+    "Description": "Relapse/progression",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 23,
+    "Variable": "intxrel",
+    "Description": "Interval between HCT and relapse or last follow up",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 24,
+    "Variable": "pfs",
+    "Description": "Progression-free survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 24,
+    "Variable": "pfs",
+    "Description": "Progression-free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  }
+]

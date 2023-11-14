@@ -1,0 +1,916 @@
+[
+  {
+    "#": 1,
+    "Variable": "yeartx",
+    "Description": "Year of transplant",
+    "Type": "Continuous"
+  },
+  {
+    "#": 2,
+    "Variable": "age",
+    "Description": "Age, median (range), yrs",
+    "Type": "Continuous"
+  },
+  {
+    "#": 3,
+    "Variable": "intxsurv",
+    "Description": "Time from HCT to death/last follow-up date",
+    "Type": "Continuous"
+  },
+  {
+    "#": 4,
+    "Variable": "gvhdgpmod",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "CNI + MMF +/- others (except post Cy)"
+  },
+  {
+    "#": 4,
+    "Variable": "gvhdgpmod",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "CNI + MTX +/- others (except MMF, post Cy)"
+  },
+  {
+    "#": 4,
+    "Variable": "gvhdgpmod",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": "CNI + others (except MMF, MTX, post Cy)"
+  },
+  {
+    "#": 4,
+    "Variable": "gvhdgpmod",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "10",
+    "Label": "Post Cy +/- others prophylaxis"
+  },
+  {
+    "#": 4,
+    "Variable": "gvhdgpmod",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": "88",
+    "Label": "Other prophylaxis"
+  },
+  {
+    "#": 5,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "90-100"
+  },
+  {
+    "#": 5,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "< 90"
+  },
+  {
+    "#": 5,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 6,
+    "Variable": "intdxtx",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgpa",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "HLA id-sib"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgpa",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Haplo"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgpa",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "URD 8/8"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgpa",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "URD 7/8"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgpa",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": "9",
+    "Label": "Cord blood"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgpa",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": "98",
+    "Label": "Other related"
+  },
+  {
+    "#": 8,
+    "Variable": "atgyndos",
+    "Description": "ATG/Campath use",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 8,
+    "Variable": "atgyndos",
+    "Description": "ATG/Campath use",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "No"
+  },
+  {
+    "#": 8,
+    "Variable": "atgyndos",
+    "Description": "ATG/Campath use",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 9,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 9,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 9,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 10,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 10,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 10,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 11,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 11,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 11,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 12,
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 12,
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 12,
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 13,
+    "Variable": "agvhd",
+    "Description": "Acute 2-4 GVHD",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 13,
+    "Variable": "agvhd",
+    "Description": "Acute 2-4 GVHD",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 13,
+    "Variable": "agvhd",
+    "Description": "Acute 2-4 GVHD",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 14,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 14,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 14,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 15,
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse, months",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 16,
+    "Variable": "intxgf",
+    "Description": "Time between transplant and graft failure, months",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 17,
+    "Variable": "drcmvpr_2",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "+/+"
+  },
+  {
+    "#": 17,
+    "Variable": "drcmvpr_2",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "+/-"
+  },
+  {
+    "#": 17,
+    "Variable": "drcmvpr_2",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "-/+"
+  },
+  {
+    "#": 17,
+    "Variable": "drcmvpr_2",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "-/-"
+  },
+  {
+    "#": 17,
+    "Variable": "drcmvpr_2",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": "9",
+    "Label": "Cord blood"
+  },
+  {
+    "#": 17,
+    "Variable": "drcmvpr_2",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": "97",
+    "Label": "Not available before 2007"
+  },
+  {
+    "#": 17,
+    "Variable": "drcmvpr_2",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 18,
+    "Variable": "condescrpmod",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "MAC-TBI"
+  },
+  {
+    "#": 18,
+    "Variable": "condescrpmod",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "MAC-Chemo"
+  },
+  {
+    "#": 18,
+    "Variable": "condescrpmod",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "RIC/NMA-TBI"
+  },
+  {
+    "#": 18,
+    "Variable": "condescrpmod",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "RIC/NMA-Chemo"
+  },
+  {
+    "#": 18,
+    "Variable": "condescrpmod",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 19,
+    "Variable": "olkstaprgp",
+    "Description": "Disease status at HCT",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Complete Remission (CR)"
+  },
+  {
+    "#": 19,
+    "Variable": "olkstaprgp",
+    "Description": "Disease status at HCT",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "(PR/(nPR)"
+  },
+  {
+    "#": 19,
+    "Variable": "olkstaprgp",
+    "Description": "Disease status at HCT",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "No response/stable (NR/SD)/Progression"
+  },
+  {
+    "#": 20,
+    "Variable": "ageres",
+    "Description": "Age, years",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "<60"
+  },
+  {
+    "#": 20,
+    "Variable": "ageres",
+    "Description": "Age, years",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "60+"
+  },
+  {
+    "#": 21,
+    "Variable": "intdxtx6gp",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "< 6 months"
+  },
+  {
+    "#": 21,
+    "Variable": "intdxtx6gp",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "6-11 months"
+  },
+  {
+    "#": 21,
+    "Variable": "intdxtx6gp",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": ">= 12 months"
+  },
+  {
+    "#": 22,
+    "Variable": "coorgscoremod",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "0"
+  },
+  {
+    "#": 22,
+    "Variable": "coorgscoremod",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "1"
+  },
+  {
+    "#": 22,
+    "Variable": "coorgscoremod",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "2"
+  },
+  {
+    "#": 22,
+    "Variable": "coorgscoremod",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "3"
+  },
+  {
+    "#": 22,
+    "Variable": "coorgscoremod",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "4"
+  },
+  {
+    "#": 22,
+    "Variable": "coorgscoremod",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "5"
+  },
+  {
+    "#": 22,
+    "Variable": "coorgscoremod",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 23,
+    "Variable": "intxagvhd",
+    "Description": "Time between transplant and acute GVHD, months",
+    "Type": "Continuous",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 24,
+    "Variable": "gf",
+    "Description": "Primary graft Failure",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 24,
+    "Variable": "gf",
+    "Description": "Primary graft Failure",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 24,
+    "Variable": "gf",
+    "Description": "Primary graft Failure",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 25,
+    "Variable": "dwoagvhd",
+    "Description": "Competing risk: aGVHD",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 25,
+    "Variable": "dwoagvhd",
+    "Description": "Competing risk: aGVHD",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 25,
+    "Variable": "dwoagvhd",
+    "Description": "Competing risk: aGVHD",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 26,
+    "Variable": "dwocgvhd",
+    "Description": "Competing risk: cGVHD",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 26,
+    "Variable": "dwocgvhd",
+    "Description": "Competing risk: cGVHD",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 26,
+    "Variable": "dwocgvhd",
+    "Description": "Competing risk: cGVHD",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 27,
+    "Variable": "dwogf",
+    "Description": "Competing risk: Graft Failure",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 27,
+    "Variable": "dwogf",
+    "Description": "Competing risk: Graft Failure",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 27,
+    "Variable": "dwogf",
+    "Description": "Competing risk: Graft Failure",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 28,
+    "Variable": "agegpan",
+    "Description": "Age Groups",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "18-29"
+  },
+  {
+    "#": 28,
+    "Variable": "agegpan",
+    "Description": "Age Groups",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "30-39"
+  },
+  {
+    "#": 28,
+    "Variable": "agegpan",
+    "Description": "Age Groups",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "40-49"
+  },
+  {
+    "#": 28,
+    "Variable": "agegpan",
+    "Description": "Age Groups",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "50-59"
+  },
+  {
+    "#": 28,
+    "Variable": "agegpan",
+    "Description": "Age Groups",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "60-69"
+  },
+  {
+    "#": 28,
+    "Variable": "agegpan",
+    "Description": "Age Groups",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "70+"
+  },
+  {
+    "#": 29,
+    "Variable": "dccn",
+    "Description": "Dummy CCN",
+    "Type": "Continuous",
+    "Value": "7",
+    "Label": "70+"
+  },
+  {
+    "#": 30,
+    "Variable": "dcrid",
+    "Description": "Dummy Crid",
+    "Type": "Continuous",
+    "Value": "7",
+    "Label": "70+"
+  },
+  {
+    "#": 31,
+    "Variable": "intxagvhd34",
+    "Description": "Time between transplant and acute GVHD 3-4, months",
+    "Type": "Continuous",
+    "Value": "7",
+    "Label": "70+"
+  },
+  {
+    "#": 32,
+    "Variable": "agvhd34",
+    "Description": "Acute 3-4 GVHD",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 32,
+    "Variable": "agvhd34",
+    "Description": "Acute 3-4 GVHD",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 32,
+    "Variable": "agvhd34",
+    "Description": "Acute 3-4 GVHD",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 33,
+    "Variable": "dwoagvhd34",
+    "Description": "Competing risk: aGVHD 3-4",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 33,
+    "Variable": "dwoagvhd34",
+    "Description": "Competing risk: aGVHD 3-4",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 33,
+    "Variable": "dwoagvhd34",
+    "Description": "Competing risk: aGVHD 3-4",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 34,
+    "Variable": "d100agvhd24",
+    "Description": "Day 100 indicator of Acute 2-4 GVHD (MVA)",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 34,
+    "Variable": "d100agvhd24",
+    "Description": "Day 100 indicator of Acute 2-4 GVHD (MVA)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 34,
+    "Variable": "d100agvhd24",
+    "Description": "Day 100 indicator of Acute 2-4 GVHD (MVA)",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 35,
+    "Variable": "d100agvhd34",
+    "Description": "Day 100 indicator of Acute 3-4 GVHD (MVA)",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "No"
+  },
+  {
+    "#": 35,
+    "Variable": "d100agvhd34",
+    "Description": "Day 100 indicator of Acute 3-4 GVHD (MVA)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Yes"
+  },
+  {
+    "#": 35,
+    "Variable": "d100agvhd34",
+    "Description": "Day 100 indicator of Acute 3-4 GVHD (MVA)",
+    "Type": "Categorical",
+    "Value": "99",
+    "Label": "Missing"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "0",
+    "Label": "Alive"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "Primary Disease"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "Graft Failure"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "3",
+    "Label": "GVHD"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "4",
+    "Label": "Infection"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "5",
+    "Label": "Ipn/ARDS"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "6",
+    "Label": "Organ Failure"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "7",
+    "Label": "Organ Toxicity"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "8",
+    "Label": "Secondary Malignancy"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "9",
+    "Label": "Other Cause"
+  },
+  {
+    "#": 36,
+    "Variable": "grpcod",
+    "Description": "Cause of death",
+    "Type": "Categorical",
+    "Value": "10",
+    "Label": "Unknown"
+  },
+  {
+    "#": 37,
+    "Variable": "condintmod",
+    "Description": "Conditioning regimen intensity (MVA)",
+    "Type": "Categorical",
+    "Value": "1",
+    "Label": "MAC"
+  },
+  {
+    "#": 37,
+    "Variable": "condintmod",
+    "Description": "Conditioning regimen intensity (MVA)",
+    "Type": "Categorical",
+    "Value": "2",
+    "Label": "RIC"
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "#": 1,
+    "Variable": "dummycrid",
+    "Description": "Dummy patient ID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 2,
+    "Variable": "dummyccn",
+    "Description": "Dummy center ID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 3,
+    "Variable": "strataf",
+    "Description": "CALGB vs CIBMTR cohort",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "CIBMTR"
+  },
+  {
+    "#": 3,
+    "Variable": "strataf",
+    "Description": "CALGB vs CIBMTR cohort",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "CALGB 10403"
+  },
+  {
+    "#": 4,
+    "Variable": "age_cr",
+    "Description": "Age at CR1, Years",
+    "Type": "Continuous",
+    "Value": 2,
+    "Label": "CALGB 10403"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp_cr",
+    "Description": "Age at CR1, Years",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "16-20"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp_cr",
+    "Description": "Age at CR1, Years",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "21-29"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp_cr",
+    "Description": "Age at CR1, Years",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "30-39"
+  },
+  {
+    "#": 6,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "#": 6,
+    "Variable": "sex",
+    "Description": "Gender",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "#": 7,
+    "Variable": "racegpf",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Caucasian"
+  },
+  {
+    "#": 7,
+    "Variable": "racegpf",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Other"
+  },
+  {
+    "#": 7,
+    "Variable": "racegpf",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Unknown/Missing"
+  },
+  {
+    "#": 8,
+    "Variable": "bmi2",
+    "Description": "BMI",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Not obese, BMI<30"
+  },
+  {
+    "#": 8,
+    "Variable": "bmi2",
+    "Description": "BMI",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Obese, BMI>=30"
+  },
+  {
+    "#": 9,
+    "Variable": "kpsf",
+    "Description": "Karnofsky performance score",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "<80"
+  },
+  {
+    "#": 9,
+    "Variable": "kpsf",
+    "Description": "Karnofsky performance score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": ">=80"
+  },
+  {
+    "#": 9,
+    "Variable": "kpsf",
+    "Description": "Karnofsky performance score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 10,
+    "Variable": "subgrp",
+    "Description": "Immunophenotype",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "T-cell"
+  },
+  {
+    "#": 10,
+    "Variable": "subgrp",
+    "Description": "Immunophenotype",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "B-cell"
+  },
+  {
+    "#": 10,
+    "Variable": "subgrp",
+    "Description": "Immunophenotype",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Unspecified"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "B-cell, <30"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "B-cell, >30"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 2.2,
+    "Label": "B-cell,Unspecified"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "T-cell, <100"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "T-cell, >100"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 4.4,
+    "Label": "T-cell,Unspecified"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Unspecified, <30"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "Unspecified, 30-100"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "Unspecified, >100"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Not Collected form july 2007 - September 2010"
+  },
+  {
+    "#": 11,
+    "Variable": "class",
+    "Description": "White blood count at diagnosis (x 10^9)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 12,
+    "Variable": "cytogene",
+    "Description": "Cytogenetics",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Normal"
+  },
+  {
+    "#": 12,
+    "Variable": "cytogene",
+    "Description": "Cytogenetics",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Poor"
+  },
+  {
+    "#": 12,
+    "Variable": "cytogene",
+    "Description": "Cytogenetics",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Other"
+  },
+  {
+    "#": 12,
+    "Variable": "cytogene",
+    "Description": "Cytogenetics",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 13,
+    "Variable": "emdx",
+    "Description": "Extramedullary disease at diagnosis",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 13,
+    "Variable": "emdx",
+    "Description": "Extramedullary disease at diagnosis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 14,
+    "Variable": "emcnsdx",
+    "Description": "CNS envolvement",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 14,
+    "Variable": "emcnsdx",
+    "Description": "CNS envolvement",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 15,
+    "Variable": "indxcr1",
+    "Description": "Median (range)",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 16,
+    "Variable": "dxcr1gp",
+    "Description": "Time to achieve CR1, weeks",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<=4 weeks"
+  },
+  {
+    "#": 16,
+    "Variable": "dxcr1gp",
+    "Description": "Time to achieve CR1, weeks",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "4-8 weeks"
+  },
+  {
+    "#": 16,
+    "Variable": "dxcr1gp",
+    "Description": "Time to achieve CR1, weeks",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": ">8 weeks"
+  },
+  {
+    "#": 17,
+    "Variable": "incr1tx",
+    "Description": "Median (range)",
+    "Type": "Continuous",
+    "Value": 3,
+    "Label": ">8 weeks"
+  },
+  {
+    "#": 18,
+    "Variable": "cr1txgp",
+    "Description": "Time from CR1 to HCT, months",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<6 months"
+  },
+  {
+    "#": 18,
+    "Variable": "cr1txgp",
+    "Description": "Time from CR1 to HCT, months",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "6-12 months"
+  },
+  {
+    "#": 18,
+    "Variable": "cr1txgp",
+    "Description": "Time from CR1 to HCT, months",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": ">12 months"
+  },
+  {
+    "#": 18,
+    "Variable": "cr1txgp",
+    "Description": "Time from CR1 to HCT, months",
+    "Type": "Categorical",
+    "Value": 88,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 18,
+    "Variable": "cr1txgp",
+    "Description": "Time from CR1 to HCT, months",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 19,
+    "Variable": "tbif",
+    "Description": "TBI given for conditioning",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 19,
+    "Variable": "tbif",
+    "Description": "TBI given for conditioning",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "No"
+  },
+  {
+    "#": 19,
+    "Variable": "tbif",
+    "Description": "TBI given for conditioning",
+    "Type": "Categorical",
+    "Value": 88,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 19,
+    "Variable": "tbif",
+    "Description": "TBI given for conditioning",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 20,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "HLA-identical sibling"
+  },
+  {
+    "#": 20,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Other related"
+  },
+  {
+    "#": 20,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Well-matched unrelated"
+  },
+  {
+    "#": 20,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Partially-matched unrelated"
+  },
+  {
+    "#": 20,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "Mis-matched unrelated"
+  },
+  {
+    "#": 20,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 21,
+    "Variable": "dnrage",
+    "Description": "Donor age, years",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 22,
+    "Variable": "sexmatchf",
+    "Description": "Donor/Recipient gender",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "F/M"
+  },
+  {
+    "#": 22,
+    "Variable": "sexmatchf",
+    "Description": "Donor/Recipient gender",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Others"
+  },
+  {
+    "#": 22,
+    "Variable": "sexmatchf",
+    "Description": "Donor/Recipient gender",
+    "Type": "Categorical",
+    "Value": 88,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 22,
+    "Variable": "sexmatchf",
+    "Description": "Donor/Recipient gender",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 23,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV match",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "+/-"
+  },
+  {
+    "#": 23,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV match",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "-/+"
+  },
+  {
+    "#": 23,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV match",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "-/-"
+  },
+  {
+    "#": 23,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV match",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "+/+"
+  },
+  {
+    "#": 23,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV match",
+    "Type": "Categorical",
+    "Value": 88,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 23,
+    "Variable": "cmvmatch",
+    "Description": "Donor/Recipient CMV match",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 24,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Bone marrow"
+  },
+  {
+    "#": 24,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 22,
+    "Label": "Peripheral blood"
+  },
+  {
+    "#": 24,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 88,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 24,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 25,
+    "Variable": "yeartxf",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "2002-2005"
+  },
+  {
+    "#": 25,
+    "Variable": "yeartxf",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2006-2008"
+  },
+  {
+    "#": 25,
+    "Variable": "yeartxf",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "2009-2012"
+  },
+  {
+    "#": 25,
+    "Variable": "yeartxf",
+    "Description": "Year of transplant",
+    "Type": "Categorical",
+    "Value": 88,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 26,
+    "Variable": "gvhd",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Ex-vivo or CD34 selection"
+  },
+  {
+    "#": 26,
+    "Variable": "gvhd",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Tac + MTX +- others"
+  },
+  {
+    "#": 26,
+    "Variable": "gvhd",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "CSA + MTX +- others"
+  },
+  {
+    "#": 26,
+    "Variable": "gvhd",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Others"
+  },
+  {
+    "#": 26,
+    "Variable": "gvhd",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Missing"
+  },
+  {
+    "#": 26,
+    "Variable": "gvhd",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 88,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 27,
+    "Variable": "atggrp",
+    "Description": "T-cell depletion (ATG/Alemtuzumab)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 27,
+    "Variable": "atggrp",
+    "Description": "T-cell depletion (ATG/Alemtuzumab)",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "No"
+  },
+  {
+    "#": 27,
+    "Variable": "atggrp",
+    "Description": "T-cell depletion (ATG/Alemtuzumab)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "NA(CALGB)"
+  },
+  {
+    "#": 28,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censor"
+  },
+  {
+    "#": 28,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 29,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censor"
+  },
+  {
+    "#": 29,
+    "Variable": "trm",
+    "Description": "Treatment related mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 30,
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censor"
+  },
+  {
+    "#": 30,
+    "Variable": "dfs",
+    "Description": "Disease free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 31,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censor"
+  },
+  {
+    "#": 31,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 32,
+    "Variable": "incrrel",
+    "Description": "Time from CR to relapse",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 33,
+    "Variable": "incrsurv",
+    "Description": "Time from CR to last follow-up / death",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  }
+]

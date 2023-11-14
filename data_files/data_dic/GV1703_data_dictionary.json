@@ -1,0 +1,1342 @@
+[
+  {
+    "Variable": "dummyid",
+    "Description": "Deidentified patient number",
+    "Type": "Num"
+  },
+  {
+    "Variable": "dummyccn",
+    "Description": "Deidentified transplant center number",
+    "Type": "Num"
+  },
+  {
+    "Variable": "agegp60",
+    "Description": "Recipient 60 years, or older, at transplant",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "Patient <60"
+  },
+  {
+    "Variable": "agegp60",
+    "Description": "Recipient 60 years, or older, at transplant",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Patient >=60"
+  },
+  {
+    "Variable": "maingp_agvh24",
+    "Description": "Main effect group for grade II-IV acute GVHD cohort",
+    "Type": "Num",
+    "Value": -2,
+    "Label": "N/A, not included in analysis"
+  },
+  {
+    "Variable": "maingp_agvh24",
+    "Description": "Main effect group for grade II-IV acute GVHD cohort",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Haplo PTCy"
+  },
+  {
+    "Variable": "maingp_agvh24",
+    "Description": "Main effect group for grade II-IV acute GVHD cohort",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "MUD Standard"
+  },
+  {
+    "Variable": "maingp_cgvh",
+    "Description": "Main effect group for chronic GVHD cohort",
+    "Type": "Num",
+    "Value": -2,
+    "Label": "N/A, not included in analysis"
+  },
+  {
+    "Variable": "maingp_cgvh",
+    "Description": "Main effect group for chronic GVHD cohort",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Haplo PTCy"
+  },
+  {
+    "Variable": "maingp_cgvh",
+    "Description": "Main effect group for chronic GVHD cohort",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "MUD Standard"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Recipient age at transplant, years",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "18-29"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Recipient age at transplant, years",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "30-39"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Recipient age at transplant, years",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "40-49"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Recipient age at transplant, years",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "50-59"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Recipient age at transplant, years",
+    "Type": "Num",
+    "Value": 5,
+    "Label": "60-69"
+  },
+  {
+    "Variable": "agegp",
+    "Description": "Recipient age at transplant, years",
+    "Type": "Num",
+    "Value": 6,
+    "Label": "70+"
+  },
+  {
+    "Variable": "sex",
+    "Description": "Recipient gender",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "Variable": "sex",
+    "Description": "Recipient gender",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "Variable": "kpsgp",
+    "Description": "Karnofsky performance score prior to transplant",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "< 90"
+  },
+  {
+    "Variable": "kpsgp",
+    "Description": "Karnofsky performance score prior to transplant",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "90-100"
+  },
+  {
+    "Variable": "kpsgp",
+    "Description": "Karnofsky performance score prior to transplant",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "hctciscore",
+    "Description": "Sorror comorbidity score",
+    "Type": "Num",
+    "Value": 98,
+    "Label": "TBD"
+  },
+  {
+    "Variable": "hctciscore",
+    "Description": "Sorror comorbidity score",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "disgrp",
+    "Description": "Disease",
+    "Type": "Num",
+    "Value": 10,
+    "Label": "AML"
+  },
+  {
+    "Variable": "disgrp",
+    "Description": "Disease",
+    "Type": "Num",
+    "Value": 20,
+    "Label": "ALL"
+  },
+  {
+    "Variable": "disgrp",
+    "Description": "Disease",
+    "Type": "Num",
+    "Value": 40,
+    "Label": "CML"
+  },
+  {
+    "Variable": "disgrp",
+    "Description": "Disease",
+    "Type": "Num",
+    "Value": 50,
+    "Label": "MDS"
+  },
+  {
+    "Variable": "disstat",
+    "Description": "Disease status prior to transplant",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Early"
+  },
+  {
+    "Variable": "disstat",
+    "Description": "Disease status prior to transplant",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "Intermediate"
+  },
+  {
+    "Variable": "disstat",
+    "Description": "Disease status prior to transplant",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "Advanced"
+  },
+  {
+    "Variable": "disstat",
+    "Description": "Disease status prior to transplant",
+    "Type": "Num",
+    "Value": 88,
+    "Label": "AML, transformed from MDS, disease status not known"
+  },
+  {
+    "Variable": "disstat",
+    "Description": "Disease status prior to transplant",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Revised Disease Risk Index (DRI)",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Low"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Revised Disease Risk Index (DRI)",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "Intermediate"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Revised Disease Risk Index (DRI)",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "High/Very high"
+  },
+  {
+    "Variable": "drigp",
+    "Description": "Revised Disease Risk Index (DRI)",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "indxtx",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "< 6"
+  },
+  {
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "6 - <12"
+  },
+  {
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Num",
+    "Value": 3,
+    "Label": ">= 12"
+  },
+  {
+    "Variable": "indxtxgp",
+    "Description": "Time from diagnosis to transplant, months",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "donortype",
+    "Description": "Donor type",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "N/A - Matched unrelated cohort"
+  },
+  {
+    "Variable": "donortype",
+    "Description": "Donor type",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Parent donor"
+  },
+  {
+    "Variable": "donortype",
+    "Description": "Donor type",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "Child donor"
+  },
+  {
+    "Variable": "donortype",
+    "Description": "Donor type",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "Mismatched sibling donor"
+  },
+  {
+    "Variable": "donortype",
+    "Description": "Donor type",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "dnrage",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "< 10"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "10to17"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "18-29"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "30-39"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 5,
+    "Label": "40-49"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 6,
+    "Label": "50-59"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 7,
+    "Label": "60-69"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 8,
+    "Label": "70+"
+  },
+  {
+    "Variable": "dnragegp",
+    "Description": "Donor age at transplant, years",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "D-R gender mismatch",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "M/M"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "D-R gender mismatch",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "M/F"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "D-R gender mismatch",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "F/M"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "D-R gender mismatch",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "F/F"
+  },
+  {
+    "Variable": "sexmatch",
+    "Description": "D-R gender mismatch",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "D-R CMV status",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "-/-"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "D-R CMV status",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "-/+"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "D-R CMV status",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "+/-"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "D-R CMV status",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "+/+"
+  },
+  {
+    "Variable": "cmvmatch",
+    "Description": "D-R CMV status",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "graftgp",
+    "Description": "Graft type",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "BM"
+  },
+  {
+    "Variable": "graftgp",
+    "Description": "Graft type",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "PB"
+  },
+  {
+    "Variable": "condinttbi",
+    "Description": "Conditioning regimen intensity and TBI use",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "MA-TBI"
+  },
+  {
+    "Variable": "condinttbi",
+    "Description": "Conditioning regimen intensity and TBI use",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "MA-No TBI"
+  },
+  {
+    "Variable": "condinttbi",
+    "Description": "Conditioning regimen intensity and TBI use",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "RIC-TBI"
+  },
+  {
+    "Variable": "condinttbi",
+    "Description": "Conditioning regimen intensity and TBI use",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "RIC-No TBI"
+  },
+  {
+    "Variable": "condinttbi",
+    "Description": "Conditioning regimen intensity and TBI use",
+    "Type": "Num",
+    "Value": 91,
+    "Label": "Missing-TBI"
+  },
+  {
+    "Variable": "condinttbi",
+    "Description": "Conditioning regimen intensity and TBI use",
+    "Type": "Num",
+    "Value": 92,
+    "Label": "Missing-No TBI"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "PT-Cy + Tac + MMF"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "PT-Cy + Tac + MMF + Siro"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "PT-Cy + Tac + MMF + others"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 11,
+    "Label": "Tac + MMF"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 12,
+    "Label": "Tac + MMF + Siro"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 13,
+    "Label": "Tac + MMF + others"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 21,
+    "Label": "Tac + MTX"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 22,
+    "Label": "Tac + MTX + Siro"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 23,
+    "Label": "Tac + MTX + others"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 31,
+    "Label": "CSA + MMF"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 32,
+    "Label": "CSA + MMF + others"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 41,
+    "Label": "CSA + MTX"
+  },
+  {
+    "Variable": "gvhdgrp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 42,
+    "Label": "CSA + MTX + others"
+  },
+  {
+    "Variable": "atgcamgp",
+    "Description": "ATG/alemtuzumab given for GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "ATG"
+  },
+  {
+    "Variable": "atgcamgp",
+    "Description": "ATG/alemtuzumab given for GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "Alemtuzumab"
+  },
+  {
+    "Variable": "atgcamgp",
+    "Description": "ATG/alemtuzumab given for GVHD prophylaxis",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "Neither"
+  },
+  {
+    "Variable": "yeartx",
+    "Description": "Year of transplant",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "Neither"
+  },
+  {
+    "Variable": "agvhdgrade",
+    "Description": "Acute GVHD grade",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "None"
+  },
+  {
+    "Variable": "agvhdgrade",
+    "Description": "Acute GVHD grade",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "I"
+  },
+  {
+    "Variable": "agvhdgrade",
+    "Description": "Acute GVHD grade",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "II"
+  },
+  {
+    "Variable": "agvhdgrade",
+    "Description": "Acute GVHD grade",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "III"
+  },
+  {
+    "Variable": "agvhdgrade",
+    "Description": "Acute GVHD grade",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "IV"
+  },
+  {
+    "Variable": "agvhdgrade",
+    "Description": "Acute GVHD grade",
+    "Type": "Num",
+    "Value": 90,
+    "Label": "All organs=\"No\""
+  },
+  {
+    "Variable": "agvhdgrade",
+    "Description": "Acute GVHD grade",
+    "Type": "Num",
+    "Value": 91,
+    "Label": "All organs missing"
+  },
+  {
+    "Variable": "agvhdgrade",
+    "Description": "Acute GVHD grade",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agvhd24",
+    "Description": "Grade 2-4 acute GVHD",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "agvhd24",
+    "Description": "Grade 2-4 acute GVHD",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "agvhd24",
+    "Description": "Grade 2-4 acute GVHD",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agskin",
+    "Description": "AGVHD Skin involvement",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - no aGVHD24"
+  },
+  {
+    "Variable": "agskin",
+    "Description": "AGVHD Skin involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "Stage 0"
+  },
+  {
+    "Variable": "agskin",
+    "Description": "AGVHD Skin involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Stage 1"
+  },
+  {
+    "Variable": "agskin",
+    "Description": "AGVHD Skin involvement",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "Stage 2"
+  },
+  {
+    "Variable": "agskin",
+    "Description": "AGVHD Skin involvement",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "Stage 3"
+  },
+  {
+    "Variable": "agskin",
+    "Description": "AGVHD Skin involvement",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "Stage 4"
+  },
+  {
+    "Variable": "agskin",
+    "Description": "AGVHD Skin involvement",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agliver",
+    "Description": "AGVHD Liver involvement",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - no aGVHD24"
+  },
+  {
+    "Variable": "agliver",
+    "Description": "AGVHD Liver involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "Stage 0"
+  },
+  {
+    "Variable": "agliver",
+    "Description": "AGVHD Liver involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Stage 1"
+  },
+  {
+    "Variable": "agliver",
+    "Description": "AGVHD Liver involvement",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "Stage 2"
+  },
+  {
+    "Variable": "agliver",
+    "Description": "AGVHD Liver involvement",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "Stage 3"
+  },
+  {
+    "Variable": "agliver",
+    "Description": "AGVHD Liver involvement",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "Stage 4"
+  },
+  {
+    "Variable": "agliver",
+    "Description": "AGVHD Liver involvement",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agugi",
+    "Description": "AGVHD Upper Gut involvement",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - no aGVHD24"
+  },
+  {
+    "Variable": "agugi",
+    "Description": "AGVHD Upper Gut involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "Stage 0"
+  },
+  {
+    "Variable": "agugi",
+    "Description": "AGVHD Upper Gut involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Stage 1"
+  },
+  {
+    "Variable": "agugi",
+    "Description": "AGVHD Upper Gut involvement",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "aglgi",
+    "Description": "AGVHD Lower Gut involvement",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - no aGVHD24"
+  },
+  {
+    "Variable": "aglgi",
+    "Description": "AGVHD Lower Gut involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "Stage 0"
+  },
+  {
+    "Variable": "aglgi",
+    "Description": "AGVHD Lower Gut involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Stage 1"
+  },
+  {
+    "Variable": "aglgi",
+    "Description": "AGVHD Lower Gut involvement",
+    "Type": "Num",
+    "Value": 2,
+    "Label": "Stage 2"
+  },
+  {
+    "Variable": "aglgi",
+    "Description": "AGVHD Lower Gut involvement",
+    "Type": "Num",
+    "Value": 3,
+    "Label": "Stage 3"
+  },
+  {
+    "Variable": "aglgi",
+    "Description": "AGVHD Lower Gut involvement",
+    "Type": "Num",
+    "Value": 4,
+    "Label": "Stage 4"
+  },
+  {
+    "Variable": "aglgi",
+    "Description": "AGVHD Lower Gut involvement",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgskin",
+    "Description": "CGVHD Skin involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgskin",
+    "Description": "CGVHD Skin involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgeyes",
+    "Description": "CGVHD Eyes involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgeyes",
+    "Description": "CGVHD Eyes involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgmouth",
+    "Description": "CGVHD Mouth involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgmouth",
+    "Description": "CGVHD Mouth involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cglung",
+    "Description": "CGVHD Lung involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cglung",
+    "Description": "CGVHD Lung involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cggi",
+    "Description": "CGVHD Gastrointestinal tract involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cggi",
+    "Description": "CGVHD Gastrointestinal tract involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgliver",
+    "Description": "CGVHD Liver involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgliver",
+    "Description": "CGVHD Liver involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cggu",
+    "Description": "CGVHD Genitourinary tract involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cggu",
+    "Description": "CGVHD Genitourinary tract involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgmusculo",
+    "Description": "CGVHD Musculoskeletal involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgmusculo",
+    "Description": "CGVHD Musculoskeletal involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cghema",
+    "Description": "CGVHD Hematologic involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cghema",
+    "Description": "CGVHD Hematologic involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgother",
+    "Description": "CGVHD Other organ involvement",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgother",
+    "Description": "CGVHD Other organ involvement",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "agvhd24dead",
+    "Description": "Overall Survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - no aGVHD24"
+  },
+  {
+    "Variable": "agvhd24dead",
+    "Description": "Overall Survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "Alive"
+  },
+  {
+    "Variable": "agvhd24dead",
+    "Description": "Overall Survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Dead"
+  },
+  {
+    "Variable": "agvhd24dead",
+    "Description": "Overall Survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "inag24surv",
+    "Description": "Time from aGVHD diagnosis to last contact, months",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgvhddead",
+    "Description": "Overall Survival, post-cGVHD",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - no cGVHD"
+  },
+  {
+    "Variable": "cgvhddead",
+    "Description": "Overall Survival, post-cGVHD",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "Alive"
+  },
+  {
+    "Variable": "cgvhddead",
+    "Description": "Overall Survival, post-cGVHD",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Dead"
+  },
+  {
+    "Variable": "cgvhddead",
+    "Description": "Overall Survival, post-cGVHD",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "incgsurv",
+    "Description": "Time from cGVHD diagnosis to last contact, months",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agvhd24rel",
+    "Description": "Relapse, post-aGVHD24",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - relapse prior to aGVHD24"
+  },
+  {
+    "Variable": "agvhd24rel",
+    "Description": "Relapse, post-aGVHD24",
+    "Type": "Num",
+    "Value": -2,
+    "Label": "N/A - no aGVHD24"
+  },
+  {
+    "Variable": "agvhd24rel",
+    "Description": "Relapse, post-aGVHD24",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "agvhd24rel",
+    "Description": "Relapse, post-aGVHD24",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "agvhd24rel",
+    "Description": "Relapse, post-aGVHD24",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agvhd24trm",
+    "Description": "Treatment-related mortality, post-aGVHD24",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - relapse prior to aGVHD24"
+  },
+  {
+    "Variable": "agvhd24trm",
+    "Description": "Treatment-related mortality, post-aGVHD24",
+    "Type": "Num",
+    "Value": -2,
+    "Label": "N/A - no aGVHD24"
+  },
+  {
+    "Variable": "agvhd24trm",
+    "Description": "Treatment-related mortality, post-aGVHD24",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "agvhd24trm",
+    "Description": "Treatment-related mortality, post-aGVHD24",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "agvhd24trm",
+    "Description": "Treatment-related mortality, post-aGVHD24",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "agvhd24dfs",
+    "Description": "Disease-free survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - relapse prior to aGVHD24"
+  },
+  {
+    "Variable": "agvhd24dfs",
+    "Description": "Disease-free survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": -2,
+    "Label": "N/A - no aGVHD24"
+  },
+  {
+    "Variable": "agvhd24dfs",
+    "Description": "Disease-free survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "agvhd24dfs",
+    "Description": "Disease-free survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "agvhd24dfs",
+    "Description": "Disease-free survival, post-aGVHD24",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "inag24rel",
+    "Description": "Time from aGVHD diagnosis to relapse, months",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgvhdrel",
+    "Description": "Relapse, post-cGVHD",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - relapse prior to cGVHD"
+  },
+  {
+    "Variable": "cgvhdrel",
+    "Description": "Relapse, post-cGVHD",
+    "Type": "Num",
+    "Value": -2,
+    "Label": "N/A - no cGVHD"
+  },
+  {
+    "Variable": "cgvhdrel",
+    "Description": "Relapse, post-cGVHD",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgvhdrel",
+    "Description": "Relapse, post-cGVHD",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgvhdrel",
+    "Description": "Relapse, post-cGVHD",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgvhdtrm",
+    "Description": "Treatment-related mortality, post-cGVHD",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - relapse prior to cGVHD"
+  },
+  {
+    "Variable": "cgvhdtrm",
+    "Description": "Treatment-related mortality, post-cGVHD",
+    "Type": "Num",
+    "Value": -2,
+    "Label": "N/A - no cGVHD"
+  },
+  {
+    "Variable": "cgvhdtrm",
+    "Description": "Treatment-related mortality, post-cGVHD",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgvhdtrm",
+    "Description": "Treatment-related mortality, post-cGVHD",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgvhdtrm",
+    "Description": "Treatment-related mortality, post-cGVHD",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "cgvhddfs",
+    "Description": "Disease-free survival, post-cGVHD",
+    "Type": "Num",
+    "Value": -1,
+    "Label": "N/A - relapse prior to cGVHD"
+  },
+  {
+    "Variable": "cgvhddfs",
+    "Description": "Disease-free survival, post-cGVHD",
+    "Type": "Num",
+    "Value": -2,
+    "Label": "N/A - no cGVHD"
+  },
+  {
+    "Variable": "cgvhddfs",
+    "Description": "Disease-free survival, post-cGVHD",
+    "Type": "Num",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "Variable": "cgvhddfs",
+    "Description": "Disease-free survival, post-cGVHD",
+    "Type": "Num",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "Variable": "cgvhddfs",
+    "Description": "Disease-free survival, post-cGVHD",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "Variable": "incgrel",
+    "Description": "Time from cGVHD diagnosis to relapse, months",
+    "Type": "Num",
+    "Value": 99,
+    "Label": "Missing"
+  }
+]

@@ -1,0 +1,966 @@
+[
+  {
+    "#": 1,
+    "Variable": "PSEUDOCRID",
+    "Description": "De-identified patient ID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 2,
+    "Variable": "PSEUDOCENTERID",
+    "Description": "De-identified center ID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 3,
+    "Variable": "grpnew",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "MAC"
+  },
+  {
+    "#": 3,
+    "Variable": "grpnew",
+    "Description": "Conditioning regimen",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "NMA/RIC"
+  },
+  {
+    "#": 4,
+    "Variable": "age",
+    "Description": "Recipient age (years)",
+    "Type": "Continuous",
+    "Value": 2,
+    "Label": "NMA/RIC"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "18-29"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "30-39"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "40-49"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "50-59"
+  },
+  {
+    "#": 5,
+    "Variable": "agegp",
+    "Description": "Recipient age group (years)",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "60-65"
+  },
+  {
+    "#": 6,
+    "Variable": "sex",
+    "Description": "Reciepient gender",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Male"
+  },
+  {
+    "#": 6,
+    "Variable": "sex",
+    "Description": "Reciepient gender",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Female"
+  },
+  {
+    "#": 7,
+    "Variable": "kps",
+    "Description": "Recipient Karnofsky score",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": ">=90"
+  },
+  {
+    "#": 7,
+    "Variable": "kps",
+    "Description": "Recipient Karnofsky score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<90"
+  },
+  {
+    "#": 7,
+    "Variable": "kps",
+    "Description": "Recipient Karnofsky score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Not reported"
+  },
+  {
+    "#": 8,
+    "Variable": "racegpnew",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Caucasian"
+  },
+  {
+    "#": 8,
+    "Variable": "racegpnew",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "African American"
+  },
+  {
+    "#": 8,
+    "Variable": "racegpnew",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Asian/Pacific islander"
+  },
+  {
+    "#": 8,
+    "Variable": "racegpnew",
+    "Description": "Recipient race",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 9,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Bone marrow"
+  },
+  {
+    "#": 9,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 22,
+    "Label": "Peripheral blood"
+  },
+  {
+    "#": 10,
+    "Variable": "dnrgp",
+    "Description": "Donor Type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Haploidentical donors"
+  },
+  {
+    "#": 10,
+    "Variable": "dnrgp",
+    "Description": "Donor Type",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Matched sibling donors"
+  },
+  {
+    "#": 10,
+    "Variable": "dnrgp",
+    "Description": "Donor Type",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "MUD + ATG"
+  },
+  {
+    "#": 10,
+    "Variable": "dnrgp",
+    "Description": "Donor Type",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "MUD - ATG"
+  },
+  {
+    "#": 11,
+    "Variable": "hctcigpnew",
+    "Description": "HCT comorbidity index",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "0"
+  },
+  {
+    "#": 11,
+    "Variable": "hctcigpnew",
+    "Description": "HCT comorbidity index",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "1"
+  },
+  {
+    "#": 11,
+    "Variable": "hctcigpnew",
+    "Description": "HCT comorbidity index",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2"
+  },
+  {
+    "#": 11,
+    "Variable": "hctcigpnew",
+    "Description": "HCT comorbidity index",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "3+"
+  },
+  {
+    "#": 11,
+    "Variable": "hctcigpnew",
+    "Description": "HCT comorbidity index",
+    "Type": "Categorical",
+    "Value": 97,
+    "Label": "TBD, inconsistencies between parent and sub-questions"
+  },
+  {
+    "#": 11,
+    "Variable": "hctcigpnew",
+    "Description": "HCT comorbidity index",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 12,
+    "Variable": "lymnumtreat_crf",
+    "Description": "Lines of prior therapy",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 12,
+    "Variable": "lymnumtreat_crf",
+    "Description": "Lines of prior therapy",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 13,
+    "Variable": "distat",
+    "Description": "Remission status",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "CR"
+  },
+  {
+    "#": 13,
+    "Variable": "distat",
+    "Description": "Remission status",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "PR"
+  },
+  {
+    "#": 13,
+    "Variable": "distat",
+    "Description": "Remission status",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Chemoresistant"
+  },
+  {
+    "#": 14,
+    "Variable": "condgrpnew",
+    "Description": "TBI in conditioning",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "TBI-containing"
+  },
+  {
+    "#": 14,
+    "Variable": "condgrpnew",
+    "Description": "TBI in conditioning",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "TBI-free"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "TBI/Cy"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "TBI/Cy/Flu"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "TBI/Cy/Flu/TT"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "TBI/Cy/TT"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "TBI/Cy/VP"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "TBI/VP"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "TBI/Mel"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "TBI/Flu"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "TBI/other(s)"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 10,
+    "Label": "Bu/Cy/Mel"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 11,
+    "Label": "Bu/Cy"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 12,
+    "Label": "Bu/Mel"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 13,
+    "Label": "Flu/Bu/TT"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 14,
+    "Label": "Flu/Bu"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 15,
+    "Label": "Flu/Mel/TT"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 16,
+    "Label": "Flu/Mel"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 17,
+    "Label": "FCR"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 18,
+    "Label": "Cy/Flu"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 19,
+    "Label": "Cy alone"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 20,
+    "Label": "CBV"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 21,
+    "Label": "BEAM"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 22,
+    "Label": "BEAM like"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 23,
+    "Label": "Mel alone"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 24,
+    "Label": "Mel/other(s)"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 25,
+    "Label": "Treosulfan"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 26,
+    "Label": "Carb/Etop"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 27,
+    "Label": "Carb/other(s)"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 28,
+    "Label": "TLI"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 90,
+    "Label": "Other(s)"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 98,
+    "Label": "None"
+  },
+  {
+    "#": 15,
+    "Variable": "condgrp",
+    "Description": "Conditioning regimens",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 16,
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Post-CY± other(s)"
+  },
+  {
+    "#": 16,
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "CNI + MMF ± other(s) (except post-CY)"
+  },
+  {
+    "#": 16,
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "CNI + MTX ± other(s) (except MMF, post-CY)"
+  },
+  {
+    "#": 16,
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "CNI + other(s) (except MMF, MTX, post-CY)"
+  },
+  {
+    "#": 16,
+    "Variable": "gvhdgpn",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "CNI alone"
+  },
+  {
+    "#": 17,
+    "Variable": "specdis",
+    "Description": "Lymphoma histology",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "PTCL"
+  },
+  {
+    "#": 17,
+    "Variable": "specdis",
+    "Description": "Lymphoma histology",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "ALCL"
+  },
+  {
+    "#": 17,
+    "Variable": "specdis",
+    "Description": "Lymphoma histology",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "AITL"
+  },
+  {
+    "#": 18,
+    "Variable": "priauto",
+    "Description": "History of autologous transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "No"
+  },
+  {
+    "#": 18,
+    "Variable": "priauto",
+    "Description": "History of autologous transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Yes"
+  },
+  {
+    "#": 18,
+    "Variable": "priauto",
+    "Description": "History of autologous transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Yes"
+  },
+  {
+    "#": 19,
+    "Variable": "intdxdt",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Continuous",
+    "Value": 2,
+    "Label": "Yes"
+  },
+  {
+    "#": 20,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 20,
+    "Variable": "dead",
+    "Description": "Overall survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 21,
+    "Variable": "intxsurv",
+    "Description": "Interval between HCT and death or last follow up",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 22,
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 22,
+    "Variable": "trm",
+    "Description": "Non-relapse mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 23,
+    "Variable": "progrel",
+    "Description": "Relapse/progression",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 23,
+    "Variable": "progrel",
+    "Description": "Relapse/progression",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 24,
+    "Variable": "intxrel",
+    "Description": "Interval between HCT and relapse or last follow up",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 25,
+    "Variable": "pfs",
+    "Description": "Progression-free survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 25,
+    "Variable": "pfs",
+    "Description": "Progression-free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 26,
+    "Variable": "anc",
+    "Description": "Neutrophil recovery",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 26,
+    "Variable": "anc",
+    "Description": "Neutrophil recovery",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 26,
+    "Variable": "anc",
+    "Description": "Neutrophil recovery",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 27,
+    "Variable": "dwoanc",
+    "Description": "Death without neutrophil recovery",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 27,
+    "Variable": "dwoanc",
+    "Description": "Death without neutrophil recovery",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 28,
+    "Variable": "platelet",
+    "Description": "Platelet recovery",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 28,
+    "Variable": "platelet",
+    "Description": "Platelet recovery",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 28,
+    "Variable": "platelet",
+    "Description": "Platelet recovery",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 29,
+    "Variable": "dwoplatelet",
+    "Description": "Death without platelet recovery",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 29,
+    "Variable": "dwoplatelet",
+    "Description": "Death without platelet recovery",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 30,
+    "Variable": "agvhd24",
+    "Description": "Grade 2-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 30,
+    "Variable": "agvhd24",
+    "Description": "Grade 2-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 30,
+    "Variable": "agvhd24",
+    "Description": "Grade 2-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 31,
+    "Variable": "agvhd34",
+    "Description": "Grade 3-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 31,
+    "Variable": "agvhd34",
+    "Description": "Grade 3-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 31,
+    "Variable": "agvhd34",
+    "Description": "Grade 3-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 32,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 32,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 32,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 33,
+    "Variable": "dwoagvhd24",
+    "Description": "Death without 2-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 33,
+    "Variable": "dwoagvhd24",
+    "Description": "Death without 2-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 34,
+    "Variable": "dwoagvhd34",
+    "Description": "Death without 3-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 34,
+    "Variable": "dwoagvhd34",
+    "Description": "Death without 3-4 acute GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 35,
+    "Variable": "dwocgvhd",
+    "Description": "Death without chronic GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 35,
+    "Variable": "dwocgvhd",
+    "Description": "Death without chronic GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 36,
+    "Variable": "intxanc",
+    "Description": "Time from HCT to neutrophil engraftment",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 37,
+    "Variable": "intxplatelet",
+    "Description": "Timefrom HCT to platelet recovery",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 38,
+    "Variable": "intxagvhd24",
+    "Description": "Time from HCT to AGVHD2-4",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 39,
+    "Variable": "intxagvhd34",
+    "Description": "Time from HCT to AGVHD3-4",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 40,
+    "Variable": "intxcgvhd",
+    "Description": "Time from HCT to CGVHD",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  }
+]

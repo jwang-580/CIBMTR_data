@@ -1,0 +1,1240 @@
+[
+  {
+    "#": 1,
+    "Variable": "pseudoid",
+    "Description": "DummyID",
+    "Type": "Continuous"
+  },
+  {
+    "#": 2,
+    "Variable": "match",
+    "Description": "9/10 mismatch detail",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Mismatch at A"
+  },
+  {
+    "#": 2,
+    "Variable": "match",
+    "Description": "9/10 mismatch detail",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Mismatch at B"
+  },
+  {
+    "#": 2,
+    "Variable": "match",
+    "Description": "9/10 mismatch detail",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Mismatch at C"
+  },
+  {
+    "#": 2,
+    "Variable": "match",
+    "Description": "9/10 mismatch detail",
+    "Type": "Categorical",
+    "Value": -9,
+    "Label": "Fully Match"
+  },
+  {
+    "#": 3,
+    "Variable": "pseudoccn",
+    "Description": "Dummy Center Number",
+    "Type": "Continuous",
+    "Value": -9,
+    "Label": "Fully Match"
+  },
+  {
+    "#": 4,
+    "Variable": "ethnicit",
+    "Description": "Ethnicity",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Hispanic or Latino"
+  },
+  {
+    "#": 4,
+    "Variable": "ethnicit",
+    "Description": "Ethnicity",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Not Hispanic or Latino"
+  },
+  {
+    "#": 4,
+    "Variable": "ethnicit",
+    "Description": "Ethnicity",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Non-resident of the U.S."
+  },
+  {
+    "#": 4,
+    "Variable": "ethnicit",
+    "Description": "Ethnicity",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 5,
+    "Variable": "disease",
+    "Description": "Primary disease for HCT",
+    "Type": "Categorical",
+    "Value": 10,
+    "Label": "AML"
+  },
+  {
+    "#": 5,
+    "Variable": "disease",
+    "Description": "Primary disease for HCT",
+    "Type": "Categorical",
+    "Value": 20,
+    "Label": "ALL"
+  },
+  {
+    "#": 5,
+    "Variable": "disease",
+    "Description": "Primary disease for HCT",
+    "Type": "Categorical",
+    "Value": 50,
+    "Label": "MDS"
+  },
+  {
+    "#": 6,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Marrow"
+  },
+  {
+    "#": 6,
+    "Variable": "graftype",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 22,
+    "Label": "PBSC"
+  },
+  {
+    "#": 7,
+    "Variable": "yeartx",
+    "Description": "Year of HCT",
+    "Type": "Continuous",
+    "Value": 22,
+    "Label": "PBSC"
+  },
+  {
+    "#": 8,
+    "Variable": "age",
+    "Description": "Recipient age at transplant",
+    "Type": "Continuous",
+    "Value": 22,
+    "Label": "PBSC"
+  },
+  {
+    "#": 9,
+    "Variable": "numhires10",
+    "Description": "Recipient / donor allele-level (high resolution) matching at HLA-A,-B,-C,-DRB1,-DQB1",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "Single mismatch"
+  },
+  {
+    "#": 9,
+    "Variable": "numhires10",
+    "Description": "Recipient / donor allele-level (high resolution) matching at HLA-A,-B,-C,-DRB1,-DQB1",
+    "Type": "Categorical",
+    "Value": 10,
+    "Label": "Fully matched"
+  },
+  {
+    "#": 10,
+    "Variable": "atgcampathgp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "ATG + CAMPATH"
+  },
+  {
+    "#": 10,
+    "Variable": "atgcampathgp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "ATG alone"
+  },
+  {
+    "#": 10,
+    "Variable": "atgcampathgp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "CAMPATH alone"
+  },
+  {
+    "#": 10,
+    "Variable": "atgcampathgp",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "No ATG or CAMPATH"
+  },
+  {
+    "#": 11,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "White"
+  },
+  {
+    "#": 11,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Black or African American"
+  },
+  {
+    "#": 11,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Asian"
+  },
+  {
+    "#": 11,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Other"
+  },
+  {
+    "#": 11,
+    "Variable": "racegp",
+    "Description": "Race",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 12,
+    "Variable": "ragecat",
+    "Description": "Recipient age at transplant",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "0-9 years"
+  },
+  {
+    "#": 12,
+    "Variable": "ragecat",
+    "Description": "Recipient age at transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "10-17 years"
+  },
+  {
+    "#": 12,
+    "Variable": "ragecat",
+    "Description": "Recipient age at transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "18-29 years"
+  },
+  {
+    "#": 12,
+    "Variable": "ragecat",
+    "Description": "Recipient age at transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "30-39 years"
+  },
+  {
+    "#": 12,
+    "Variable": "ragecat",
+    "Description": "Recipient age at transplant",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "40-49 years"
+  },
+  {
+    "#": 12,
+    "Variable": "ragecat",
+    "Description": "Recipient age at transplant",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "50-59 years"
+  },
+  {
+    "#": 12,
+    "Variable": "ragecat",
+    "Description": "Recipient age at transplant",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "60 years and older"
+  },
+  {
+    "#": 13,
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Myeloablative"
+  },
+  {
+    "#": 13,
+    "Variable": "condint",
+    "Description": "Conditioning regimen intensity",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Non-myeloablative/RIC"
+  },
+  {
+    "#": 14,
+    "Variable": "kps",
+    "Description": "Karnofsky performance score",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "<90"
+  },
+  {
+    "#": 14,
+    "Variable": "kps",
+    "Description": "Karnofsky performance score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "90-100"
+  },
+  {
+    "#": 15,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "+/+"
+  },
+  {
+    "#": 15,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "+/-"
+  },
+  {
+    "#": 15,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "-/+"
+  },
+  {
+    "#": 15,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "-/-"
+  },
+  {
+    "#": 16,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "M-M"
+  },
+  {
+    "#": 16,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "M-F"
+  },
+  {
+    "#": 16,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "F-M"
+  },
+  {
+    "#": 16,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "F-F"
+  },
+  {
+    "#": 17,
+    "Variable": "intxdt",
+    "Description": "Time from diagnosis to HCT (months)",
+    "Type": "Continuous",
+    "Value": 4,
+    "Label": "F-F"
+  },
+  {
+    "#": 18,
+    "Variable": "pbmmatch",
+    "Description": "PBM matched degree",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "PBM Mismatched"
+  },
+  {
+    "#": 18,
+    "Variable": "pbmmatch",
+    "Description": "PBM matched degree",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "PBM Matched"
+  },
+  {
+    "#": 18,
+    "Variable": "pbmmatch",
+    "Description": "PBM matched degree",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "PBM NA"
+  },
+  {
+    "#": 18,
+    "Variable": "pbmmatch",
+    "Description": "PBM matched degree",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Fully matched"
+  },
+  {
+    "#": 19,
+    "Variable": "pbm",
+    "Description": "PBM mismatched directional",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "PBM mismatched-bidirectional"
+  },
+  {
+    "#": 19,
+    "Variable": "pbm",
+    "Description": "PBM mismatched directional",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "PBM mismatched - HvG"
+  },
+  {
+    "#": 19,
+    "Variable": "pbm",
+    "Description": "PBM mismatched directional",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "PBM mismatched - GvH"
+  },
+  {
+    "#": 19,
+    "Variable": "pbm",
+    "Description": "PBM mismatched directional",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "PBM matched"
+  },
+  {
+    "#": 19,
+    "Variable": "pbm",
+    "Description": "PBM mismatched directional",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Fully matched"
+  },
+  {
+    "#": 19,
+    "Variable": "pbm",
+    "Description": "PBM mismatched directional",
+    "Type": "Categorical",
+    "Value": -9,
+    "Label": "PBM NA"
+  },
+  {
+    "#": 20,
+    "Variable": "intxsurv",
+    "Description": "Time from HCT to last follow-up, months",
+    "Type": "Continuous",
+    "Value": -9,
+    "Label": "PBM NA"
+  },
+  {
+    "#": 21,
+    "Variable": "dissta",
+    "Description": "Disease stage at transplant",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Early"
+  },
+  {
+    "#": 21,
+    "Variable": "dissta",
+    "Description": "Disease stage at transplant",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Intermediate"
+  },
+  {
+    "#": 21,
+    "Variable": "dissta",
+    "Description": "Disease stage at transplant",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Advanced"
+  },
+  {
+    "#": 22,
+    "Variable": "hctci",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "0-1"
+  },
+  {
+    "#": 22,
+    "Variable": "hctci",
+    "Description": "HCT-CI",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": ">=2"
+  },
+  {
+    "#": 23,
+    "Variable": "dnrage",
+    "Description": "Donor age",
+    "Type": "Continuous",
+    "Value": 2,
+    "Label": ">=2"
+  },
+  {
+    "#": 24,
+    "Variable": "dagecat",
+    "Description": "Donor age",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "<20 years"
+  },
+  {
+    "#": 24,
+    "Variable": "dagecat",
+    "Description": "Donor age",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "20-29 years"
+  },
+  {
+    "#": 24,
+    "Variable": "dagecat",
+    "Description": "Donor age",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "30-39 years"
+  },
+  {
+    "#": 24,
+    "Variable": "dagecat",
+    "Description": "Donor age",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "40-49 years"
+  },
+  {
+    "#": 24,
+    "Variable": "dagecat",
+    "Description": "Donor age",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "50+ years"
+  },
+  {
+    "#": 25,
+    "Variable": "dpb1match",
+    "Description": "DPB-1 TCE matched",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "GVH-Non Permissive"
+  },
+  {
+    "#": 25,
+    "Variable": "dpb1match",
+    "Description": "DPB-1 TCE matched",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "HVG-Non Permissive"
+  },
+  {
+    "#": 25,
+    "Variable": "dpb1match",
+    "Description": "DPB-1 TCE matched",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Permissive"
+  },
+  {
+    "#": 25,
+    "Variable": "dpb1match",
+    "Description": "DPB-1 TCE matched",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Match"
+  },
+  {
+    "#": 25,
+    "Variable": "dpb1match",
+    "Description": "DPB-1 TCE matched",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 26,
+    "Variable": "gvhprhrx",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "TAC based"
+  },
+  {
+    "#": 26,
+    "Variable": "gvhprhrx",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "CSA based"
+  },
+  {
+    "#": 27,
+    "Variable": "dead",
+    "Description": "Dead",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 27,
+    "Variable": "dead",
+    "Description": "Dead",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 27,
+    "Variable": "dead",
+    "Description": "Dead",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 28,
+    "Variable": "supertype_r_a_typ1",
+    "Description": "Recipient Super type of HLA-A (1st allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 29,
+    "Variable": "supertype_r_a_typ2",
+    "Description": "Recipient Super type of HLA-A (2nd allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 30,
+    "Variable": "supertype_d_a_typ1",
+    "Description": "Dono Super type of HLA-A (1st allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 31,
+    "Variable": "supertype_d_a_typ2",
+    "Description": "Donor Super type of HLA-A (2nd allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 32,
+    "Variable": "supertype_r_b_typ1",
+    "Description": "Recipient Super type  of HLA-B (1st allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 33,
+    "Variable": "supertype_r_b_typ2",
+    "Description": "Recipient Super type of HLA-B (2nd allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 34,
+    "Variable": "supertype_d_b_typ1",
+    "Description": "Dono Super type of HLA-B (1st allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 35,
+    "Variable": "supertype_d_b_typ2",
+    "Description": "Donor Super type of HLA-B (2nd allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 36,
+    "Variable": "supertype_r_c_typ1",
+    "Description": "Recipient Super type  of HLA-C (1st allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 37,
+    "Variable": "supertype_r_c_typ2",
+    "Description": "Recipient Super type of HLA-C (2nd allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 38,
+    "Variable": "supertype_d_c_typ1",
+    "Description": "Dono Super type of HLA-C (1st allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 39,
+    "Variable": "supertype_d_c_typ2",
+    "Description": "Donor Super type of HLA-C (2nd allele)",
+    "Type": "Character",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 40,
+    "Variable": "anc",
+    "Description": "Neutrophil engraftment",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 40,
+    "Variable": "anc",
+    "Description": "Neutrophil engraftment",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 40,
+    "Variable": "anc",
+    "Description": "Neutrophil engraftment",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 41,
+    "Variable": "dwoanc",
+    "Description": "Dead without neutrophil engraftment",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 41,
+    "Variable": "dwoanc",
+    "Description": "Dead without neutrophil engraftment",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 41,
+    "Variable": "dwoanc",
+    "Description": "Dead without neutrophil engraftment",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 42,
+    "Variable": "plt",
+    "Description": "Platelet recovery",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 42,
+    "Variable": "plt",
+    "Description": "Platelet recovery",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 42,
+    "Variable": "plt",
+    "Description": "Platelet recovery",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 43,
+    "Variable": "dwoplt",
+    "Description": "Dead without platelet recovery",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 43,
+    "Variable": "dwoplt",
+    "Description": "Dead without platelet recovery",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 43,
+    "Variable": "dwoplt",
+    "Description": "Dead without platelet recovery",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 44,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 44,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 44,
+    "Variable": "cgvhd",
+    "Description": "Chronic GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 45,
+    "Variable": "dwocgvhd",
+    "Description": "Dead without chronic GVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 45,
+    "Variable": "dwocgvhd",
+    "Description": "Dead without chronic GVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 45,
+    "Variable": "dwocgvhd",
+    "Description": "Dead without chronic GVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 46,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 46,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 46,
+    "Variable": "rel",
+    "Description": "Relapse",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 47,
+    "Variable": "trm",
+    "Description": "Treatment-related mortality",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 47,
+    "Variable": "trm",
+    "Description": "Treatment-related mortality",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 47,
+    "Variable": "trm",
+    "Description": "Treatment-related mortality",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 48,
+    "Variable": "rfs",
+    "Description": "Relapse-free survival",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 48,
+    "Variable": "rfs",
+    "Description": "Relapse-free survival",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 48,
+    "Variable": "rfs",
+    "Description": "Relapse-free survival",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 49,
+    "Variable": "intxrel",
+    "Description": "Time from HCT to relapse / death, months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 50,
+    "Variable": "agvhd24",
+    "Description": "AGVHD II-IV",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 50,
+    "Variable": "agvhd24",
+    "Description": "AGVHD II-IV",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 50,
+    "Variable": "agvhd24",
+    "Description": "AGVHD II-IV",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 51,
+    "Variable": "agvhd34",
+    "Description": "AGVHD III-IV",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 51,
+    "Variable": "agvhd34",
+    "Description": "AGVHD III-IV",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 51,
+    "Variable": "agvhd34",
+    "Description": "AGVHD III-IV",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 52,
+    "Variable": "dwoagvhd24",
+    "Description": "Dead without grade II-IV aGVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 52,
+    "Variable": "dwoagvhd24",
+    "Description": "Dead without grade II-IV aGVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 52,
+    "Variable": "dwoagvhd24",
+    "Description": "Dead without grade II-IV aGVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 53,
+    "Variable": "dwoagvhd34",
+    "Description": "Dead without grade III-IV aGVHD",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 53,
+    "Variable": "dwoagvhd34",
+    "Description": "Dead without grade III-IV aGVHD",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Censoring"
+  },
+  {
+    "#": 53,
+    "Variable": "dwoagvhd34",
+    "Description": "Dead without grade III-IV aGVHD",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 54,
+    "Variable": "intxcgvhd",
+    "Description": "Time from HCT to diagnosis of chronic GVHD, months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 55,
+    "Variable": "intxanc",
+    "Description": "Time from HCT to neutrophil engraftment, months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 56,
+    "Variable": "intxplt",
+    "Description": "Time from HCT to platelet recovery, months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 57,
+    "Variable": "intxagvhd24",
+    "Description": "Time from HCT to diagnosis of aGVHD for cases with AGVHD II-IV, months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 58,
+    "Variable": "intxagvhd34",
+    "Description": "Time from HCT to diagnosis of aGVHD for cases with AGVHD III-IV, months",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Event"
+  },
+  {
+    "#": 59,
+    "Variable": "supertypematch",
+    "Description": "Super type mismatched in each loci",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Supertype matched"
+  },
+  {
+    "#": 59,
+    "Variable": "supertypematch",
+    "Description": "Super type mismatched in each loci",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Supertype mismatched"
+  },
+  {
+    "#": 59,
+    "Variable": "supertypematch",
+    "Description": "Super type mismatched in each loci",
+    "Type": "Categorical",
+    "Value": -9,
+    "Label": "N/A*"
+  },
+  {
+    "#": 60,
+    "Variable": "supertype",
+    "Description": "Super type mismatched in each loci",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Supertype matched"
+  },
+  {
+    "#": 60,
+    "Variable": "supertype",
+    "Description": "Super type mismatched in each loci",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Supertype mismatched-bidirectional"
+  },
+  {
+    "#": 60,
+    "Variable": "supertype",
+    "Description": "Super type mismatched in each loci",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Supertype mismatched - HvG"
+  },
+  {
+    "#": 60,
+    "Variable": "supertype",
+    "Description": "Super type mismatched in each loci",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Supertypemismatched - GvH"
+  },
+  {
+    "#": 60,
+    "Variable": "supertype",
+    "Description": "Super type mismatched in each loci",
+    "Type": "Categorical",
+    "Value": -9,
+    "Label": "N/A*"
+  },
+  {
+    "#": 61,
+    "Variable": "super_a",
+    "Description": "HLA A supertype",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Mismatched"
+  },
+  {
+    "#": 61,
+    "Variable": "super_a",
+    "Description": "HLA A supertype",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Matched"
+  },
+  {
+    "#": 61,
+    "Variable": "super_a",
+    "Description": "HLA A supertype",
+    "Type": "Categorical",
+    "Value": -9,
+    "Label": "N/A*"
+  },
+  {
+    "#": 62,
+    "Variable": "super_b",
+    "Description": "HLA B supertype",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Mismatched"
+  },
+  {
+    "#": 62,
+    "Variable": "super_b",
+    "Description": "HLA B supertype",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Matched"
+  },
+  {
+    "#": 62,
+    "Variable": "super_b",
+    "Description": "HLA B supertype",
+    "Type": "Categorical",
+    "Value": -9,
+    "Label": "N/A*"
+  },
+  {
+    "#": 63,
+    "Variable": "super_c",
+    "Description": "HLA C supertype",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Mismatched"
+  },
+  {
+    "#": 63,
+    "Variable": "super_c",
+    "Description": "HLA C supertype",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "Matched"
+  },
+  {
+    "#": 63,
+    "Variable": "super_c",
+    "Description": "HLA C supertype",
+    "Type": "Categorical",
+    "Value": -9,
+    "Label": "N/A*"
+  },
+  {
+    "#": 63,
+    "Variable": "* only available for PBM matched and PBM mismatched patients",
+    "Description": "HLA C supertype",
+    "Type": "Categorical",
+    "Value": -9,
+    "Label": "N/A*"
+  }
+]

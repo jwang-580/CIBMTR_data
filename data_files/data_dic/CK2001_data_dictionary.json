@@ -1,0 +1,1232 @@
+[
+  {
+    "#": 1,
+    "Variable": "yeartx",
+    "Description": "Year of transplant",
+    "Type": "Continuous"
+  },
+  {
+    "#": 2,
+    "Variable": "systempr",
+    "Description": "Systemic symptoms prior to HCT",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 2,
+    "Variable": "systempr",
+    "Description": "Systemic symptoms prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 2,
+    "Variable": "systempr",
+    "Description": "Systemic symptoms prior to HCT",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "Unknown"
+  },
+  {
+    "#": 2,
+    "Variable": "systempr",
+    "Description": "Systemic symptoms prior to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 3,
+    "Variable": "age",
+    "Description": "Patient age",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 4,
+    "Variable": "indxtx",
+    "Description": "Interval of Diagnosis and Transplant",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 5,
+    "Variable": "atgcampathuse",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 5,
+    "Variable": "atgcampathuse",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 5,
+    "Variable": "atgcampathuse",
+    "Description": "ATG/Campath",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No GVHD prophylaxis"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Ex-vivo T-cell depletion"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "CD34 selection"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Post-CY +- other(s)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3.1,
+    "Label": "Post-CY + other(s)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 3.2,
+    "Label": "Post-CY alone"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "TAC + MMF +- other(s) (except post-CY)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "TAC + MTX +- other(s) (except MMF, post-CY)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "TAC + other(s) (except MMF, MTX, post-CY)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": "TAC alone"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 8,
+    "Label": "CSA + MMF +- other(s) (except post-CY)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 9,
+    "Label": "CSA + MTX +- other(s) (except MMF, post-CY)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 10,
+    "Label": "CSA + other(s) (except MMF, MTX, post-CY)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 11,
+    "Label": "CSA alone"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 20,
+    "Label": "Other(s)"
+  },
+  {
+    "#": 6,
+    "Variable": "gvhdgp",
+    "Description": "GVHD prophylaxis",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "HLA-identical sibling"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Well-matched unrelated (8/8)"
+  },
+  {
+    "#": 7,
+    "Variable": "donorgp",
+    "Description": "Donor type",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Partially-matched unrelated (7/8)"
+  },
+  {
+    "#": 8,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "+/+"
+  },
+  {
+    "#": 8,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "+/-"
+  },
+  {
+    "#": 8,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "-/+"
+  },
+  {
+    "#": 8,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "-/-"
+  },
+  {
+    "#": 8,
+    "Variable": "drcmvpr",
+    "Description": "Donor/recipient CMV serostatus",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 9,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "M-M"
+  },
+  {
+    "#": 9,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "M-F"
+  },
+  {
+    "#": 9,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "F-M"
+  },
+  {
+    "#": 9,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "F-F"
+  },
+  {
+    "#": 9,
+    "Variable": "drsex",
+    "Description": "Donor/recipient sex match",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 10,
+    "Variable": "graftypecat",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Bone marrow"
+  },
+  {
+    "#": 10,
+    "Variable": "graftypecat",
+    "Description": "Graft type",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Peripheral blood"
+  },
+  {
+    "#": 11,
+    "Variable": "agegpan",
+    "Description": "Age",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "18-29"
+  },
+  {
+    "#": 11,
+    "Variable": "agegpan",
+    "Description": "Age",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "30-39"
+  },
+  {
+    "#": 11,
+    "Variable": "agegpan",
+    "Description": "Age",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "40-49"
+  },
+  {
+    "#": 11,
+    "Variable": "agegpan",
+    "Description": "Age",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "50-59"
+  },
+  {
+    "#": 11,
+    "Variable": "agegpan",
+    "Description": "Age",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "60-69"
+  },
+  {
+    "#": 11,
+    "Variable": "agegpan",
+    "Description": "Age",
+    "Type": "Categorical",
+    "Value": 7,
+    "Label": ">=70"
+  },
+  {
+    "#": 12,
+    "Variable": "subdisdx",
+    "Description": "Subdisease",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Primary Myelofibrosis"
+  },
+  {
+    "#": 12,
+    "Variable": "subdisdx",
+    "Description": "Subdisease",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Polycythemia vera"
+  },
+  {
+    "#": 12,
+    "Variable": "subdisdx",
+    "Description": "Subdisease",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Essential thrombocythemia"
+  },
+  {
+    "#": 13,
+    "Variable": "intdxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "0-3 months"
+  },
+  {
+    "#": 13,
+    "Variable": "intdxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "3-6 months"
+  },
+  {
+    "#": 13,
+    "Variable": "intdxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": ">= 6 months"
+  },
+  {
+    "#": 13,
+    "Variable": "intdxtxgp",
+    "Description": "Time from diagnosis to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 14,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "90-100"
+  },
+  {
+    "#": 14,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "< 90"
+  },
+  {
+    "#": 14,
+    "Variable": "karnofcat",
+    "Description": "Karnofsky score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 15,
+    "Variable": "racemod",
+    "Description": "Race/ethnicity",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Hispanic"
+  },
+  {
+    "#": 15,
+    "Variable": "racemod",
+    "Description": "Race/ethnicity",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Non-Hispanic White"
+  },
+  {
+    "#": 15,
+    "Variable": "racemod",
+    "Description": "Race/ethnicity",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Non-Hispanic Black/African American"
+  },
+  {
+    "#": 15,
+    "Variable": "racemod",
+    "Description": "Race/ethnicity",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "Other"
+  },
+  {
+    "#": 15,
+    "Variable": "racemod",
+    "Description": "Race/ethnicity",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 16,
+    "Variable": "strata",
+    "Description": "Main Effect",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "MAC: Flu/Bu"
+  },
+  {
+    "#": 16,
+    "Variable": "strata",
+    "Description": "Main Effect",
+    "Type": "Continuous",
+    "Value": 2,
+    "Label": "MAC: Bu/Cy"
+  },
+  {
+    "#": 16,
+    "Variable": "strata",
+    "Description": "Main Effect",
+    "Type": "Continuous",
+    "Value": 4,
+    "Label": "RIC: Flu/Bu"
+  },
+  {
+    "#": 16,
+    "Variable": "strata",
+    "Description": "Main Effect",
+    "Type": "Continuous",
+    "Value": 5,
+    "Label": "RIC: Flu/Mel"
+  },
+  {
+    "#": 17,
+    "Variable": "dipssprgp",
+    "Description": "DIPSS Score",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Low/Intermediate-1"
+  },
+  {
+    "#": 17,
+    "Variable": "dipssprgp",
+    "Description": "DIPSS Score",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Intermediate-2/High"
+  },
+  {
+    "#": 17,
+    "Variable": "dipssprgp",
+    "Description": "DIPSS Score",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "Missing"
+  },
+  {
+    "#": 18,
+    "Variable": "intxagvhd24_24",
+    "Description": "Time from HCT to diagnosis of aGVHD for cases with max grade II-IV, months",
+    "Type": "Continuous",
+    "Value": 5,
+    "Label": "Missing"
+  },
+  {
+    "#": 19,
+    "Variable": "intxsurv24",
+    "Description": "Time from HCT to last follow-up, months (Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 5,
+    "Label": "Missing"
+  },
+  {
+    "#": 20,
+    "Variable": "dead24",
+    "Description": "Overall survival (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 20,
+    "Variable": "dead24",
+    "Description": "Overall survival (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 20,
+    "Variable": "dead24",
+    "Description": "Overall survival (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 21,
+    "Variable": "intxrel24",
+    "Description": "Time from HCT to relapse / death",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 21,
+    "Variable": "intxrel24",
+    "Description": "(Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 22,
+    "Variable": "rel24",
+    "Description": "Relapse (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 22,
+    "Variable": "rel24",
+    "Description": "Relapse (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 22,
+    "Variable": "rel24",
+    "Description": "Relapse (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 23,
+    "Variable": "dfs24",
+    "Description": "Disease free survival (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 23,
+    "Variable": "dfs24",
+    "Description": "Disease free survival (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 23,
+    "Variable": "dfs24",
+    "Description": "Disease free survival (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 24,
+    "Variable": "trm24",
+    "Description": "Non relapse mortality (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 24,
+    "Variable": "trm24",
+    "Description": "Non relapse mortality (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 24,
+    "Variable": "trm24",
+    "Description": "Non relapse mortality (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 25,
+    "Variable": "agvhd24_24",
+    "Description": "AGVHD II-IV (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 25,
+    "Variable": "agvhd24_24",
+    "Description": "AGVHD II-IV (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 25,
+    "Variable": "agvhd24_24",
+    "Description": "AGVHD II-IV (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 26,
+    "Variable": "dwoagvhd24_24",
+    "Description": "Dead without grade II-IV aGVHD (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 26,
+    "Variable": "dwoagvhd24_24",
+    "Description": "Dead without grade II-IV aGVHD (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 26,
+    "Variable": "dwoagvhd24_24",
+    "Description": "Dead without grade II-IV aGVHD (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 27,
+    "Variable": "agvhd34_24",
+    "Description": "AGVHD III-IV (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 27,
+    "Variable": "agvhd34_24",
+    "Description": "AGVHD III-IV (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 27,
+    "Variable": "agvhd34_24",
+    "Description": "AGVHD III-IV (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 28,
+    "Variable": "intxagvhd34_24",
+    "Description": "Time from HCT to AGVHD (Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 29,
+    "Variable": "dwoagvhd34_24",
+    "Description": "Dead without grade III-IV aGVHD (Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 29,
+    "Variable": "dwoagvhd34_24",
+    "Description": "Dead without grade III-IV aGVHD (Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 29,
+    "Variable": "dwoagvhd34_24",
+    "Description": "Dead without grade III-IV aGVHD (Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 30,
+    "Variable": "cgvhd_24",
+    "Description": "Chronic GVHD (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 30,
+    "Variable": "cgvhd_24",
+    "Description": "Chronic GVHD (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 30,
+    "Variable": "cgvhd_24",
+    "Description": "Chronic GVHD (Censored at 24 months)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 31,
+    "Variable": "intxcgvhd_24",
+    "Description": "Time from HCT to diagnosis of chronic GVHD, months",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 32,
+    "Variable": "dwocgvhd_24",
+    "Description": "Dead without Chronic GVHD (Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 32,
+    "Variable": "dwocgvhd_24",
+    "Description": "Dead without Chronic GVHD (Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 32,
+    "Variable": "dwocgvhd_24",
+    "Description": "Dead without Chronic GVHD (Censored at 24 months)",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 33,
+    "Variable": "dummyid",
+    "Description": "Dummy CRID",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 34,
+    "Variable": "dummyccn",
+    "Description": "Dummy CCN",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 35,
+    "Variable": "coorgscoregp2",
+    "Description": "Sorror comorbidity Score",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "0"
+  },
+  {
+    "#": 35,
+    "Variable": "coorgscoregp2",
+    "Description": "Sorror comorbidity Score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "1"
+  },
+  {
+    "#": 35,
+    "Variable": "coorgscoregp2",
+    "Description": "Sorror comorbidity Score",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "2"
+  },
+  {
+    "#": 35,
+    "Variable": "coorgscoregp2",
+    "Description": "Sorror comorbidity Score",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "3"
+  },
+  {
+    "#": 35,
+    "Variable": "coorgscoregp2",
+    "Description": "Sorror comorbidity Score",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "4"
+  },
+  {
+    "#": 35,
+    "Variable": "coorgscoregp2",
+    "Description": "Sorror comorbidity Score",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "5+"
+  },
+  {
+    "#": 35,
+    "Variable": "coorgscoregp2",
+    "Description": "Sorror comorbidity Score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 36,
+    "Variable": "atgdosegp",
+    "Description": "ATG dose (mg)",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 37,
+    "Variable": "lpamsq_gp",
+    "Description": "Melphalan dose",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 38,
+    "Variable": "grfs24",
+    "Description": "GRFS",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 38,
+    "Variable": "grfs24",
+    "Description": "GRFS",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 38,
+    "Variable": "grfs24",
+    "Description": "GRFS",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 39,
+    "Variable": "Intxgrfs24",
+    "Description": "Time from HCT to relapse / death / CGVHD/aGVHD",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 39,
+    "Variable": "Intxgrfs24",
+    "Description": "Time from HCT to relapse / death / CGVHD/aGVHD",
+    "Type": "Continuous",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 40,
+    "Variable": "dip_pluspr",
+    "Description": "DIPSS +",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Low"
+  },
+  {
+    "#": 40,
+    "Variable": "dip_pluspr",
+    "Description": "DIPSS +",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Intermediate-1"
+  },
+  {
+    "#": 40,
+    "Variable": "dip_pluspr",
+    "Description": "DIPSS +",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Intermediate-2"
+  },
+  {
+    "#": 40,
+    "Variable": "dip_pluspr",
+    "Description": "DIPSS +",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "High"
+  },
+  {
+    "#": 41,
+    "Variable": "pkinetbugp",
+    "Description": "Busulfan pharmacokinetics performed (MAC setting)",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 41,
+    "Variable": "pkinetbugp",
+    "Description": "Busulfan pharmacokinetics performed (MAC setting)",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 41,
+    "Variable": "pkinetbugp",
+    "Description": "Busulfan pharmacokinetics performed (MAC setting)",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 42,
+    "Variable": "ruxopr",
+    "Description": "Jakafi (Ruxolitinib) use prior to HCT",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 42,
+    "Variable": "ruxopr",
+    "Description": "Jakafi (Ruxolitinib) use prior to HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 42,
+    "Variable": "ruxopr",
+    "Description": "Jakafi (Ruxolitinib) use prior to HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 43,
+    "Variable": "bumeth",
+    "Description": "Busulfan Administration",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Oral"
+  },
+  {
+    "#": 43,
+    "Variable": "bumeth",
+    "Description": "Busulfan Administration",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "IV"
+  },
+  {
+    "#": 43,
+    "Variable": "bumeth",
+    "Description": "Busulfan Administration",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 44,
+    "Variable": "splnmgprgp",
+    "Description": "Splenomegaly at HCT",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 44,
+    "Variable": "splnmgprgp",
+    "Description": "Splenomegaly at HCT",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 44,
+    "Variable": "splnmgprgp",
+    "Description": "Splenomegaly at HCT",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Splenectomy"
+  },
+  {
+    "#": 44,
+    "Variable": "splnmgprgp",
+    "Description": "Splenomegaly at HCT",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 45,
+    "Variable": "lpamsq_gp",
+    "Description": "Mel dose (Only for RIC: Flu/Mel setting) (Supplemental Analysis only) IF NEEDED",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Mel 100"
+  },
+  {
+    "#": 45,
+    "Variable": "lpamsq_gp",
+    "Description": "Mel dose (Only for RIC: Flu/Mel setting) (Supplemental Analysis only) IF NEEDED",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Mel 140"
+  },
+  {
+    "#": 46,
+    "Variable": "strata_3",
+    "Description": "Sensitivity analysis, 3-way Mel dose for RIC: Flu/Mel setting) (Supplemental Analysis only)",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "RIC: Flu/Bu"
+  },
+  {
+    "#": 46,
+    "Variable": "strata_3",
+    "Description": "Sensitivity analysis, 3-way Mel dose for RIC: Flu/Mel setting) (Supplemental Analysis only)",
+    "Type": "Categorical",
+    "Value": 5,
+    "Label": "RIC: Flu/Mel-100"
+  },
+  {
+    "#": 46,
+    "Variable": "strata_3",
+    "Description": "Sensitivity analysis, 3-way Mel dose for RIC: Flu/Mel setting) (Supplemental Analysis only)",
+    "Type": "Categorical",
+    "Value": 6,
+    "Label": "RIC: Flu/Mel-140"
+  },
+  {
+    "#": 47,
+    "Variable": "splnradgp",
+    "Description": "Splenic radiation as pre-HCT therapy",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 47,
+    "Variable": "splnradgp",
+    "Description": "Splenic radiation as pre-HCT therapy",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 47,
+    "Variable": "splnradgp",
+    "Description": "Splenic radiation as pre-HCT therapy",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 48,
+    "Variable": "splenectgp",
+    "Description": "Splenectomy as pre-HCT therapy",
+    "Type": "Categorical",
+    "Value": 0,
+    "Label": "No"
+  },
+  {
+    "#": 48,
+    "Variable": "splenectgp",
+    "Description": "Splenectomy as pre-HCT therapy",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Yes"
+  },
+  {
+    "#": 48,
+    "Variable": "splenectgp",
+    "Description": "Splenectomy as pre-HCT therapy",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  },
+  {
+    "#": 49,
+    "Variable": "dipsspr",
+    "Description": "DIPSS Score",
+    "Type": "Categorical",
+    "Value": 1,
+    "Label": "Low"
+  },
+  {
+    "#": 49,
+    "Variable": "dipsspr",
+    "Description": "DIPSS Score",
+    "Type": "Categorical",
+    "Value": 2,
+    "Label": "Intermediate-1"
+  },
+  {
+    "#": 49,
+    "Variable": "dipsspr",
+    "Description": "DIPSS Score",
+    "Type": "Categorical",
+    "Value": 3,
+    "Label": "Intermediate-2"
+  },
+  {
+    "#": 49,
+    "Variable": "dipsspr",
+    "Description": "DIPSS Score",
+    "Type": "Categorical",
+    "Value": 4,
+    "Label": "High"
+  },
+  {
+    "#": 49,
+    "Variable": "dipsspr",
+    "Description": "DIPSS Score",
+    "Type": "Categorical",
+    "Value": 99,
+    "Label": "Missing"
+  }
+]
