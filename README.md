@@ -7,16 +7,17 @@ Using a 6-party conversational agents, the primary outcomes of published article
 ## Introduction
 
 AutoGen, developed by Microsoft in collaboration with Penn State University and the University of Washington, is an innovative multi-agent AI framework designed to manage and automate complex workflows involving large language models (LLMs). 
+This project was build on the AutoGen platform with goal for autonomous data analysis and hypothesis generation from the data. 
 
-! [This is a demonstation of the 6-party agents]()
+! [This is a demonstation of the 6-party agents](https://github.com/jwang-580/CIBMTR_data/blob/8495b4321bcd6ef64012ac34eb311ce0720341e0/data_files/6_party_agents.png)
 
 ## Features
 
-- Data extraction from the CIBMTR published database
-- Preprocessing and cleaning of data
-- Implementation of various data mining algorithms
-- Visualization tools for analysis results
-- Easy-to-use interface for non-technical users
+- Data sets and corresponding data dictionary can be openly obtained from [CIBMTR data access](https://cibmtr.org/CIBMTR/Resources/Publicly-Available-Datasets)
+- The data files (CSV) and corresponding data dictionaries (JSON) are automatically analysed with the 6-party agents
+- Various outcomes in the paper can be replicated with a zero-shot prompt
+- Outcome reporting and data visualization are optimized for scientific format
+! [This is a demonstration of zero-shot prompting] ()
 
 ## Getting Started
 
