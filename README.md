@@ -15,7 +15,8 @@ This project was build on the AutoGen platform with goal for autonomous data ana
 
 - Data sets and corresponding data dictionary can be openly obtained from [CIBMTR data access](https://cibmtr.org/CIBMTR/Resources/Publicly-Available-Datasets)
 - The data files (CSV) and corresponding data dictionaries (JSON) are automatically analysed with the 6-party agents
-- Various outcomes in the paper can be replicated with a zero-shot prompt
+- Data dictionaries are retrieved with OAI agents to save token
+- Various types of outcomes (e.g. baseline characteristics, survival analysis, Cox regression) can be replicated with a zero-shot prompt
 - Outcome reporting and data visualization are optimized for scientific format
 ![This is a demonstration of zero-shot prompting](https://github.com/jwang-580/CIBMTR_data/blob/c30e5d6631cb3ab319159bbed7dc95ee18129d74/data_files/zero_shot_example.png)
 
@@ -23,9 +24,10 @@ This project was build on the AutoGen platform with goal for autonomous data ana
 
 ### Prerequisites
 
-- Ensure you have [CIBMTR data access](https://www.cibmtr.org) permissions.
+- OpenAI API key
 - Install [Python 3.x](https://www.python.org/downloads/).
-- Install necessary Python libraries: `pandas`, `numpy`, `scikit-learn`.
+- Install necessary Python libraries: `pandas`, `numpy`, `scikit-learn`, `lifelines`, `matplotlib`
+- Install AutoGen version 0.2.0b5 or higher to allow OpenAI agents
 
 ### Installation
 
