@@ -31,7 +31,5 @@ This project was build on the AutoGen platform with goal for autonomous data ana
 
 ### Installation
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/autogen-data-mining.git
+- under construction
 
